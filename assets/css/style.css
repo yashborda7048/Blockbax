@@ -260,7 +260,8 @@ img {
 
 .common_section h2,
 .enterprise-box h2,
-.review-box .head h2 {
+.review-box .head h2,
+.integrations_box .head h2 {
   font-family: Alliance No.2;
   font-size: 42px;
   font-weight: 600;
@@ -483,12 +484,11 @@ img {
 .review-card .slider-logo {
   width: 160px;
   height: 60px;
-  object-fit: cover;
   margin-bottom: 36px;
 }
 
-.review-card p {
-  color: #1c1c1e;
+.review-card .main-text {
+  color: #1C1C1E;
   font-family: GT America;
   font-size: 24px;
   font-weight: 400;
@@ -497,6 +497,7 @@ img {
   padding-right: 50px;
   border-right: 1px solid rgba(37, 39, 59, 0.15);
   margin-right: 50px;
+  margin-bottom: 0%;
 }
 
 .review-card .read-btn {
@@ -553,8 +554,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1000px;
-  margin: 60px auto;
+  max-width: 1080px;
+  margin: 0px auto;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px;
 }
 
 .review-box .slick-prev,
@@ -581,12 +588,27 @@ img {
   right: 22.5%;
 }
 
+.nav_slider_logo {
+  padding-top: 30px;
+  border-top: 3px solid transparent;
+}
+
+.nav_slider_logo.slick-current {
+  border-top: 3px solid #218753;
+}
+
 .nav_slider_logo img {
   width: auto;
   height: 34px;
+  cursor: pointer;
 }
 
 .slider-for {
+  max-width: 772px;
+  margin: 60px auto 0px;
+}
+
+.slider-for .slick-track {
   display: flex;
   align-items: center;
   justify-content: space-between;
