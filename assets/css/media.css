@@ -1,0 +1,41 @@
+/* ---------------------------- 
+      (max-width:1199px)
+------------------------------ */
+@media only screen and (max-width: 1199px) {
+  .custom_container {
+    padding: 0px 16px;
+  }
+  .browser_img1 img {
+    right: 0px;
+  }
+  .browser_img2 img {
+    left: 0px;
+  }
+  .enterprise_2 {
+    border-right: none !important;
+  }
+}
+
+/* ---------------------------- 
+      (max-width:991px)
+------------------------------ */
+@media only screen and (max-width: 991px) {
+  .browser_img1 img {
+    position: relative;
+  }
+  .browser_img2 img {
+    position: relative;
+  }
+  .enterprise_2 {
+    border-right: none !important;
+  }
+}
+
+/* ---------------------------- 
+      (max-width:768px)
+------------------------------ */
+@media only screen and (max-width: 768px) {
+  .enterprise-box .row-line>div {
+    border-right: none !important;
+  }
+}

@@ -1,0 +1,519 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.custom_container {
+  padding: 0px 80px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.bg_img {
+  background-image: url(/assets/image/hero.svg);
+  width: 100%;
+  height: 1295px;
+  background-position: center 15%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #1c1c1e;
+  position: relative;
+  z-index: 0;
+}
+
+.header_wrap .navbar {
+  padding: 20px 0px;
+}
+
+.header_wrap .navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  font-family: GT America;
+  font-size: 14px;
+  padding: 0px 15.7px;
+  font-weight: 400;
+  letter-spacing: 0.07px;
+  text-transform: uppercase;
+}
+
+.header_wrap .navbar-expand-lg .navbar-nav .nav-link i {
+  color: #2fc177;
+  margin-left: 2px;
+}
+
+.header_wrap .dropdown-toggle::after {
+  display: none;
+}
+
+.common_btn1 {
+  color: #fff;
+  text-align: center;
+  font-family: GT America;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #2d2f30;
+  background: #1c1c1e;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 0px 0px rgba(255, 255, 255, 0.08) inset;
+}
+
+.common_btn {
+  color: #fff;
+  text-align: center;
+  font-family: GT America;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #134d30;
+  background: #218753;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 0px 0px rgba(255, 255, 255, 0.08) inset;
+}
+
+.banner_section {
+  padding: 112px 0px 81px;
+}
+
+.banner_section h1 {
+  max-width: 640px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-family: Alliance No.2;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 68px;
+  letter-spacing: 0.3px;
+}
+
+.banner_section h5 {
+  max-width: 895px;
+  margin: 20px auto 52px;
+  color: #97a4b5;
+  text-align: center;
+  font-family: Alliance No.2;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.14px;
+}
+
+.banner_video {
+  height: 720px;
+}
+
+/* start why blockbax section  */
+.py_200 {
+  padding: 200px 0px 184px;
+}
+
+.why_blockbax_section {
+  max-width: 720px;
+}
+
+.why_blockbax_section p {
+  color: #218753;
+  font-family: GT America;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.why_blockbax_section h2 {
+  color: #1c1c1e;
+  font-family: Alliance No.2;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0.18px;
+}
+
+.why_blockbax_section h2 span {
+  color: #218753;
+}
+
+.pt_80 {
+  padding-top: 80px;
+}
+
+.icon_box {
+  margin-left: 10px;
+}
+
+.icon_box h4 {
+  color: #218753;
+  font-family: GT America;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 7px;
+}
+
+.icon_box h5 {
+  color: #2a3643;
+  font-family: GT America;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+/* start black theme section */
+.bg_black {
+  background-color: #1c1c1e;
+}
+
+.py_100 {
+  padding: 100px 0px;
+}
+
+.counter_section h3 {
+  color: #218753;
+  font-family: GT America;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+
+.counter_section h4 {
+  color: #fff;
+  font-family: GT America;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.12px;
+}
+
+.common_section h2,
+.enterprise-box h2,
+.review-box .head h2 {
+  font-family: Alliance No.2;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.21px;
+}
+
+/* start flexibility css */
+.flexibility_section {
+  padding: 210px 0px 356px;
+}
+
+.browser_img1 img {
+  position: absolute;
+  right: -80px;
+  top: 0px;
+}
+
+.common-box {
+  max-width: 494px;
+}
+
+.common-box h5 {
+  color: #fff;
+  font-family: GT America;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.common-box p {
+  color: #97a4b5;
+  font-family: GT America;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+.mb_20 {
+  margin-bottom: 20px;
+}
+
+.mb_40 {
+  margin-bottom: 40px;
+}
+
+.mb_60 {
+  margin-bottom: 60px;
+}
+
+/* start configurable ui css */
+.configurable_section {
+  padding: 210px 0px 275px;
+}
+
+.browser_img2 img {
+  position: absolute;
+  left: -80px;
+  top: 0;
+}
+
+/* start streaming analytics css */
+.streaming_analytics_section {
+  padding: 210px 0px 375px;
+}
+
+/* start designed css */
+.circle_background {
+  background-image: url(/assets/image/circle.svg);
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.success_badge {
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 50%;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #218753;
+  text-align: center;
+  font-family: GT America;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.08px;
+  margin-bottom: 30px;
+}
+
+.designed_text h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.21px;
+}
+
+.designed_text p {
+  max-width: 720px;
+  margin: auto;
+  color: #97a4b5;
+  font-family: GT America;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+.main_logo_box {
+  min-height: 260px;
+  height: 100%;
+  padding: 40px 15px 10px;
+  border-radius: 16px;
+  border: 1px solid #303030;
+  background: var(--Gradient-Card-Dark,
+      linear-gradient(180deg, #2b2b2b 0%, #1a1a1a 100%));
+  box-shadow: 0px 1px 4px 0px rgba(37, 39, 59, 0.1);
+  max-width: 385px;
+}
+
+.main_logo_box h5 {
+  color: #fff;
+  font-family: GT America;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.gap_5 {
+  column-gap: 5px;
+  row-gap: 10px;
+}
+
+.logo_box {
+  padding: 14px 20px;
+  min-width: 60px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #19191b;
+  line-height: 1;
+}
+
+.lg_logo_box {
+  padding: 14px 20px;
+  min-width: 60px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #19191b;
+}
+
+.logo_box_section {
+  gap: 20px;
+}
+
+.enterprise-box .row-line {
+  max-width: 1360px;
+  row-gap: 48px;
+}
+
+.enterprise-box .row-line>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.enterprise-box .row-line p {
+  font-family: GT America;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 0;
+}
+
+.review-box {
+  padding: 200px 0px 174px;
+}
+
+.review-box .head h2 {
+  color: #1C1C1E;
+}
+
+.review-box .head p {
+  color: #2A3643;
+  font-family: GT America;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  margin-bottom: 60px;
+}
+
+.review-card {
+  border-radius: 16px;
+  border: 1px solid rgba(37, 39, 59, 0.15);
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0px 1px 4px 0px rgba(37, 39, 59, 0.10);
+  padding: 60px 60px 69px;
+  background-image: url(/assets/image/card.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1000px;
+  margin: 0px 30px 0px 0px;
+}
+
+.review-card .slider-logo {
+  width: 160px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 36px;
+}
+
+.review-card p {
+  color: #1C1C1E;
+  font-family: GT America;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.12px;
+  padding-right: 50px;
+  border-right: 1px solid rgba(37, 39, 59, 0.15);
+  margin-right: 50px;
+}
+
+.review-card .read-btn {
+  border-radius: 8px;
+  border: 1px solid #134D30;
+  background: #218753;
+  padding: 12px 16px;
+  color: #FFF;
+  text-align: center;
+  font-family: GT America;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-wrap: nowrap;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15), 0px 2px 0px 0px rgba(255, 255, 255, 0.08) inset;
+}
+
+.avatar-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar-box img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.avatar-box h4 {
+  color: #1C1C1E;
+  font-family: GT America;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+.avatar-box p {
+  color: #2A3643;
+  font-family: GT America;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+/* .review-box .slider-nav {
+  position: relative;
+} */
+.slick-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+.review-box .slick-prev,
+.review-box .slick-next {
+  /* position: absolute; */
+  top: 230px;
+  font-size: 24px;
+  background-color: #1a1a1a;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.review-box .slick-prev {
+  left: 22.5%;
+}
+
+.review-box .slick-next {
+  right: 22.5%;
+}
+
+.nav_slider_logo img {
+  width: auto;
+  height: 34px;
+}
+
+.slider-for {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 772px;
+  margin: 60px auto;
+}

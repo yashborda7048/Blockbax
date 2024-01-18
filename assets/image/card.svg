@@ -1,0 +1,36 @@
+<svg width="1000" height="460" viewBox="0 0 1000 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_151_3615)">
+<mask id="mask0_151_3615" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="460">
+<rect width="1000" height="460" rx="16" fill="white"/>
+<rect x="0.5" y="0.5" width="999" height="459" rx="15.5" stroke="#25273B" stroke-opacity="0.15"/>
+</mask>
+<g mask="url(#mask0_151_3615)">
+<g filter="url(#filter0_d_151_3615)">
+<path d="M0 16C0 7.16343 7.16345 0 16 0H984C992.837 0 1000 7.16344 1000 16V444C1000 452.837 992.837 460 984 460H16C7.16342 460 0 452.837 0 444V16Z" fill="white" fill-opacity="0.1" shape-rendering="crispEdges"/>
+</g>
+<g opacity="0.1" filter="url(#filter1_f_151_3615)">
+<rect x="385" y="555.65" width="1607.3" height="970.851" rx="20" transform="rotate(-30 385 555.65)" fill="#2FC177"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_151_3615" x="-4" y="-3" width="1008" height="468" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.145098 0 0 0 0 0.152941 0 0 0 0 0.231373 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_151_3615"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_151_3615" result="shape"/>
+</filter>
+<filter id="filter1_f_151_3615" x="25.3172" y="-607.683" width="2596.75" height="2363.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="183.5" result="effect1_foregroundBlur_151_3615"/>
+</filter>
+<clipPath id="clip0_151_3615">
+<rect width="1000" height="460" fill="white"/>
+</clipPath>
+</defs>
+</svg>
