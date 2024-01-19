@@ -1,40 +1,28 @@
 /* GT America font */
 
 @font-face {
-  font-family: "GT America";
-  src: url("../font/GT-America/GT-America-Standard-Regular.woff2")
-      format("woff2"),
-    url("../ffont/GT-America/GT-America-Standard-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: "GT America Black";
+  src: url("../font/GT-America/GT-America-Black.ttf") format("opentype");
+  font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
-  font-family: "GT America";
-  src: url("../fonts/GT-America/GT-America-Standard-Bold.woff2") format("woff2"),
-    url("../fonts/GT-America/GT-America-Standard-Bold.woff") format("woff");
-  font-weight: bold;
+  font-family: "GT America Bold";
+  src: url("../font/GT-America/GT-America-Bold.ttf") format("opentype");
+  font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
-  font-family: "GT America";
-  src: url("../font/GT-America/GT-America-Standard-Regular-Italic.woff2")
-      format("woff2"),
-    url("../ffont/GT-America/GT-America-Standard-Regular-Italic.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: italic;
+  font-family: "GT America Regular";
+  src: url("../font/GT-America/GT-America-Regular.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
 }
-
 @font-face {
-  font-family: "GT America";
-  src: url("../fonts/GT-America/GT-America-Standard-Bold-Italic.woff2")
-      format("woff2"),
-    url("../fonts/GT-America/GT-America-Standard-Bold-Italic.woff")
-      format("woff");
-  font-weight: bold;
-  font-style: italic;
+  font-family: "GT America Medium";
+  src: url("../font/GT-America/GT-America-Medium.ttf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
 }
 
 /* Alliance No.2 Font */
@@ -65,7 +53,8 @@
 }
 @font-face {
   font-family: "Alliance No.2";
-  src: url("../font/Alliance/Alliance-No-2-ExtraBold-Italic.otf") format("opentype");
+  src: url("../font/Alliance/Alliance-No-2-ExtraBold-Italic.otf")
+    format("opentype");
   font-weight: 800;
   font-style: italic;
 }
@@ -89,7 +78,8 @@
 }
 @font-face {
   font-family: "Alliance No.2";
-  src: url("../font/Alliance/Alliance-No-2-Medium-Italic.otf") format("opentype");
+  src: url("../font/Alliance/Alliance-No-2-Medium-Italic.otf")
+    format("opentype");
   font-weight: 500;
   font-style: italic;
 }
@@ -101,7 +91,8 @@
 }
 @font-face {
   font-family: "Alliance No.2";
-  src: url("../font/Alliance/Alliance-No-2-Regular-Italic.otf") format("opentype");
+  src: url("../font/Alliance/Alliance-No-2-Regular-Italic.otf")
+    format("opentype");
   font-weight: 400;
   font-style: italic;
 }
@@ -113,7 +104,8 @@
 }
 @font-face {
   font-family: "Alliance No.2";
-  src: url("../font/Alliance/Alliance-No-2-SemiBold-Italic.otf") format("opentype");
+  src: url("../font/Alliance/Alliance-No-2-SemiBold-Italic.otf")
+    format("opentype");
   font-weight: 600;
   font-style: italic;
 }

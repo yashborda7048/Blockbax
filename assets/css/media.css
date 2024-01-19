@@ -2,12 +2,14 @@
       (max-width:1600px)
 ------------------------------ */
 @media only screen and (max-width: 1600px) {
+  .bg_img {
+    background-position: center 0%;
+  }
   .main_logo_box {
     max-width: 365px;
   }
-
   .post_card .body h3 {
-    max-width: 324px;
+    max-width: 294px;
   }
 }
 
@@ -83,7 +85,9 @@
    (min-width:1350px) & (max-width:1500px)
 ------------------------------------------ */
 @media (min-width: 1350px) and (max-width: 1500px) {
-
+  .browser_img1 img {
+    top: 72px;
+  }
   .browser_img1 img,
   .browser_img2 img {
     max-width: 800px;
@@ -96,7 +100,6 @@
    (min-width:1199px) & (max-width:1350px)
 ------------------------------------------ */
 @media (min-width: 1199px) and (max-width: 1350px) {
-
   .browser_img1 img,
   .browser_img2 img {
     max-width: 700px;
@@ -109,7 +112,7 @@
 /* --------------------------------------- 
    (min-width:991px) & (max-width:1199px)
 ------------------------------------------ */
-@media (min-width: 991px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .header_wrap .navbar {
     padding: 16px;
   }
@@ -245,7 +248,7 @@
   }
 
   .counter .counter_section {
-    width: 49%;
+    width: 48%;
   }
 
   .py_281 {
@@ -372,7 +375,7 @@
     margin: auto;
   }
 
-  .enterprise_box .row-line>div {
+  .enterprise_box .row-line > div {
     border-right: none !important;
   }
 }
@@ -509,6 +512,10 @@
     font-size: 16px;
   }
 
+  .review-card .main_text {
+    font-size: 18px;
+  }
+
   .avatar-box img {
     width: 50px;
     height: 50px;
@@ -527,6 +534,18 @@
   .blog_card {
     margin: 0px 7px 0px;
     /* height: auto; */
+  }
+
+  .blog_card .main-img {
+    height: 520px;
+  }
+  .blog_card {
+    max-width: 440px;
+  }
+  .blog_card .check {
+    max-width: 50px;
+    right: 10px;
+    top: 10px;
   }
 
   .start_box h1 {
@@ -555,7 +574,9 @@
   .banner_section h1 {
     font-size: 32px;
   }
-
+  .companies_section h3 {
+    font-size: 22px;
+  }
   .counter .counter_section h3 {
     font-size: 22px;
   }
@@ -564,10 +585,21 @@
     font-size: 18px;
   }
 
-  .enterprise_box .row-line>div {
+  .blog_card .body {
+    padding: 16px;
+  }
+  .blog_card .body .main_text {
+    margin-bottom: 20px;
+  }
+  .blog_card .main-img {
+    height: 460px;
+  }
+  .blog_card {
+    max-width: 380px;
+  }
+  .enterprise_box .row-line > div {
     gap: 12px;
   }
-
   .enterprise_box .row-line p {
     font-size: 16px;
   }
@@ -585,12 +617,16 @@
   .bg_img {
     height: 775px;
   }
-
   .companies_section {
     padding: 100px 0px 0px;
   }
-
   .common_btn {
     font-size: 14px;
+  }
+  .blog_card .main-img {
+    height: 410px;
+  }
+  .blog_card {
+    max-width: 320px;
   }
 }

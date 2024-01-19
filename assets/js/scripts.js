@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // HEADER MENU JS
+  // header menu js
   $(window).on("scroll", function () {
     var scroll = $(window).scrollTop();
 
@@ -55,12 +55,13 @@ $(document).ready(function () {
     $(".slider-nav").slick("slickNext");
   });
 
+  // slider blog js
   $(".slider-blog").slick({
     dots: false,
     arrows: false,
     infinite: true,
     speed: 300,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     centerMode: true,
     slidesToShow: 3,
@@ -85,6 +86,7 @@ $(document).ready(function () {
     ],
   });
 
+  // compaines logo slider js
   $(".autoplay").slick({
     slidesToShow: 6,
     slidesToScroll: 1,
