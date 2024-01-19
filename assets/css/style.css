@@ -1013,3 +1013,16 @@ img {
   line-height: 21px;
   letter-spacing: 0.07px;
 }
+
+.bg-round {
+  width: 583px;
+  height: 583px;
+  border-radius: 999px;
+  background: #218753;
+  opacity: 0.5;
+  filter: blur(50px);
+  position: absolute;
+  bottom: -50px;
+  right: 282px;
+  z-index: 0;
+}
