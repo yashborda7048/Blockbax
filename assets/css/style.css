@@ -30,7 +30,6 @@ img {
   background-repeat: no-repeat;
   background-color: #1c1c1e;
   position: relative;
-  z-index: 0;
 }
 
 /* start header css */
@@ -42,7 +41,7 @@ img {
   z-index: 1030;
 }
 
-/* .header_wrap.nav-fixed {
+.header_wrap.nav-fixed {
   box-shadow: 0 0 5px rgb(0 0 0 / 15%);
   position: fixed;
   right: 0;
@@ -50,7 +49,7 @@ img {
   top: 0;
   z-index: 999;
   background: #1c1c1e;
-} */
+}
 
 .header_wrap .navbar {
   padding: 20px 80px;

@@ -92,22 +92,22 @@
 ------------------------------ */
 @media only screen and (max-width: 991px) {
   .header_wrap .navbar {
-    padding: 16px;
+    padding: 16px 0px;
+  }
+  .header_wrap .navbar-brand {
+    margin-left: 16px;
   }
   .header_wrap .navbar-toggler {
-    border: 0px;
-    color: #fff;
-    padding: 0;
-  }
-  .header_wrap .navbar-toggler:focus {
     box-shadow: none;
+    padding: 0;
   }
   .header_wrap .navbar-collapse {
     padding: 20px 6px;
-    background-color: #fff;
+    background-color: #1c1c1e;
+    margin-top: 16px;
   }
   .header_wrap .navbar-expand-lg .navbar-nav .nav-link {
-    color: black;
+    color: #fff;
   }
   .header_wrap .dropdown-menu.header_menu1:before {
     display: none;
@@ -127,6 +127,45 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+  }
+  #toggle {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+  }
+  #toggle::before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+    transform: translateY(-5px);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+  }
+  #toggle::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+    transform: translateY(5px);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+  }
+  #toggle.active::before {
+    transform: translateY(0px) rotate(45deg);
+    -webkit-transform: translateY(0px) rotate(45deg);
+    -moz-transform: translateY(0px) rotate(45deg);
+  }
+  #toggle.active::after {
+    transform: translateY(0px) rotate(-45deg);
+    -webkit-transform: translateY(0px) rotate(-45deg);
+    -moz-transform: translateY(0px) rotate(-45deg);
   }
   .companies_section {
     padding: 80px 0px 0px;
