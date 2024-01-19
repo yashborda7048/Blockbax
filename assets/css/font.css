@@ -1,0 +1,125 @@
+/* GT America font */
+
+@font-face {
+  font-family: "GT America";
+  src: url("../font/GT-America/GT-America-Standard-Regular.woff2")
+      format("woff2"),
+    url("../ffont/GT-America/GT-America-Standard-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("../fonts/GT-America/GT-America-Standard-Bold.woff2") format("woff2"),
+    url("../fonts/GT-America/GT-America-Standard-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("../font/GT-America/GT-America-Standard-Regular-Italic.woff2")
+      format("woff2"),
+    url("../ffont/GT-America/GT-America-Standard-Regular-Italic.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("../fonts/GT-America/GT-America-Standard-Bold-Italic.woff2")
+      format("woff2"),
+    url("../fonts/GT-America/GT-America-Standard-Bold-Italic.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Alliance No.2 Font */
+
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Black-Italic.otf") format("otf");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Black.otf") format("otf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Bold-Italic.otf") format("otf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Bold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-ExtraBold-Italic.otf") format("otf");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-ExtraBold.otf") format("otf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Light-Italic.otf") format("otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Medium-Italic.otf") format("otf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Regular-Italic.otf") format("otf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-Regular.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-SemiBold-Italic.otf") format("otf");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("../font/Alliance/Alliance-No.2-SemiBold.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+}
