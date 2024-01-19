@@ -876,7 +876,7 @@
                             Platform highlights
                         </div>
                         <h3 class="text-white mb-3">Platform highlights July</h3>
-                        <p class="mb-0">We 💚 fast and frequent releases. New features are added on a
+                        <p class="">We 💚 fast and frequent releases. New features are added on a
                             daily basis, and this blog series will showcase our favorite new features</p>
                     </div>
                 </div>
@@ -918,8 +918,8 @@
     </div>
 
     <div class="start_box">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row row-gap-5">
+            <div class="col-lg-6">
                 <h1 class="mb_20">Ready to get <br> started?</h1>
                 <div class="d-flex align-items-center">
                     <button class="features_btn">See features <i class="fas fa-angles-right"></i></button>
@@ -940,13 +940,86 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="text-center">
-                    <img src="assets/image/start-main.svg" alt="start-main  ">
+                    <img src="assets/image/start-main.svg" alt="start-main">
                 </div>
             </div>
         </div>
     </div>
+
+    <footer class="footer bg-dark text-light">
+        <div class="row row-gap-3 justify-content-between">
+            <div class="col-md-8">
+                <div class="row row-gap-3">
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-uppercase">Platform</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="footer-link">Overview</a></li>
+                            <li><a href="#" class="footer-link">Features</a></li>
+                            <li><a href="#" class="footer-link">Connectivity</a></li>
+                            <li><a href="#" class="footer-link">Security</a></li>
+                            <li><a href="#" class="footer-link">Web and Mobile Apps</a></li>
+                            <li><a href="#" class="footer-link">Integrations</a></li>
+                            <li><a href="#" class="footer-link mb-0">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-uppercase">Solutions</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="footer-link">Energy</a></li>
+                            <li><a href="#" class="footer-link">Agriculture</a></li>
+                            <li><a href="#" class="footer-link">Construction</a></li>
+                            <li><a href="#" class="footer-link">Smart Buildings</a></li>
+                            <li><a href="#" class="footer-link">Smart Cities</a></li>
+                            <li><a href="#" class="footer-link">Water</a></li>
+                            <li><a href="#" class="footer-link mb-0">Device & Sensor Makers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-uppercase">Partners</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="footer-link">How To Become A Partner</a></li>
+                            <li><a href="#" class="footer-link">System Integrators</a></li>
+                            <li><a href="#" class="footer-link">Implementation Partners</a></li>
+                            <li><a href="#" class="footer-link">Solution Partners</a></li>
+                            <li><a href="#" class="footer-link mb-0">Technology Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-uppercase">Company</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="#" class="footer-link">Blog</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link mb-0">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="company-section text-white ">
+                    <img src="assets/image/logo.svg" alt="logo" class="mb_40">
+                    <p class="lead mb_40">Ready to grow?</p>
+                    <div class="d-flex align-items-center row-gap-3 flex-wrap">
+                        <button class="btn btn-success ">Request trial</button>
+                        <button class="btn btn-outline-light ">Contact us <i class="fas fa-angles-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between row-gap-4 bottom_line">
+                <p class=" mb-0">Copyright Blockbax 2023, All rights reserved. Our <a href="#"
+                        class="text-white">Cookie Policy</a> and <a href="#" class="text-white">Privacy Policy
+                    </a> apply.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -954,6 +1027,20 @@
 
     <script>
         $(document).ready(function () {
+            // HEADER MENU JS
+            $(window).on('scroll', function () {
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 150) {
+                    $('header').addClass('nav-fixed');
+                } else {
+                    $('header').removeClass('nav-fixed');
+                }
+            });
+
+            $('.checkbtn').on('click', function () {
+                $('body').toggleClass('menu-open');
+            });
             $('.slider-for').slick({
                 infinite: true,
                 slidesToShow: 5,
@@ -1012,30 +1099,12 @@
                         settings: {
                             slidesToShow: 1,
                             slidesToScroll: 1,
-                            variableWidth: false,
+                            dots: true,
                         }
                     }
                 ]
             });
 
-        });
-    </script>
-
-    <script>
-
-        // HEADER MENU JS
-        $(window).on('scroll', function () {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 150) {
-                $('header').addClass('nav-fixed');
-            } else {
-                $('header').removeClass('nav-fixed');
-            }
-        });
-
-        $('.checkbtn').on('click', function () {
-            $('body').toggleClass('menu-open');
         });
     </script>
 </body>

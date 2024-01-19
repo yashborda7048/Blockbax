@@ -5,6 +5,7 @@
   .custom_container {
     padding: 0px 16px;
   }
+
   .browser_img1 img,
   .browser_img3 img {
     right: 0px;
@@ -48,28 +49,31 @@
   .header_wrap .navbar {
     padding: 16px 0px;
   }
+
   .header_wrap .navbar-toggler {
     border: 0px;
   }
+
   .header_wrap .navbar-toggler:focus {
     box-shadow: none;
   }
+
   .header_wrap .navbar-collapse {
     padding: 20px 6px;
     background-color: aliceblue;
   }
+
   .header_wrap .navbar-expand-lg .navbar-nav .nav-link {
     color: black;
   }
+
   .header_wrap .navbar-nav {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
-  .browser_img1 img {
-    position: relative;
-  }
 
+  .browser_img1 img,
   .browser_img2 img {
     position: relative;
   }
@@ -78,12 +82,16 @@
     border-right: none !important;
   }
 
-  .main_post { 
+  .main_post {
     margin-right: 0px;
   }
 
   .post_card {
     flex-direction: column;
+  }
+
+  .start_box {
+    padding: 100px 40px 109px;
   }
 }
 
@@ -91,20 +99,23 @@
       (max-width:768px)
 ------------------------------ */
 @media only screen and (max-width: 768px) {
-  .enterprise-box .row-line > div {
+  .enterprise-box .row-line>div {
     border-right: none !important;
   }
 
-  .integrations_box.bg_dark {
-    background-color: #161618;
-    padding: 200px 16px;
+  .py_214,
+  .review-box,
+  .integrations_box,
+  .integrations_box.bg_dark,
+  .start_box {
+    padding: 100px 16px;
   }
 }
 
 /* ---------------------------- 
-      (max-width:576px)
+      (max-width:575px)
 ------------------------------ */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
   .review-card {
     margin: 0px 7px 0px;
     padding: 15px;
@@ -138,24 +149,40 @@
     cursor: pointer;
   }
 
-  .blog_card { 
+  .blog_card {
     margin: 0px 7px 0px;
     /* height: auto; */
   }
-}
-/* ---------------------------- 
-      (max-width:575px)
------------------------------- */
-@media only screen and (max-width: 575px) {
+
   .header_wrap .header_menu1 {
     width: 100%;
   }
+
   .header_wrap .header_menu2 {
     width: 100%;
   }
+
   .header_wrap .dropdown-menu.header_menu1 {
     left: 0;
     transform: none;
     margin-top: 10px;
+  }
+
+  .start_box h1 {
+    font-size: 38px;
+    line-height: 49px;
+  }
+
+  .features_btn,
+  .trial_btn {
+    padding: 12px;
+  }
+
+  .footer {
+    padding: 87px 16px 30px;
+  }
+
+  .bottom_line {
+    margin-top: 30px;
   }
 }
