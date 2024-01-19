@@ -84,4 +84,41 @@ $(document).ready(function () {
       },
     ],
   });
+
+  $(".autoplay").slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: false,
+    infinite: true,
+    centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  });
 });

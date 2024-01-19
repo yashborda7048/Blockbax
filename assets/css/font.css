@@ -40,86 +40,86 @@
 /* Alliance No.2 Font */
 
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Black-Italic.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Black-Italic.otf") format("opentype");
   font-weight: 900;
   font-style: italic;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Black.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Black.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Bold-Italic.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Bold-Italic.otf") format("opentype");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Bold.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-ExtraBold-Italic.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-ExtraBold-Italic.otf") format("opentype");
   font-weight: 800;
   font-style: italic;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-ExtraBold.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-ExtraBold.otf") format("opentype");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Light-Italic.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Light-Italic.otf") format("opentype");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Light.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Medium-Italic.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Medium-Italic.otf") format("opentype");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Medium.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Regular-Italic.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Regular-Italic.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-Regular.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-SemiBold-Italic.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-SemiBold-Italic.otf") format("opentype");
   font-weight: 600;
   font-style: italic;
 }
 @font-face {
-  font-family: "Alliance No.2", sans-serif;
-  src: url("../font/Alliance/Alliance-No.2-SemiBold.otf") format("otf");
+  font-family: "Alliance No.2";
+  src: url("../font/Alliance/Alliance-No-2-SemiBold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
 }
