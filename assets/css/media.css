@@ -17,12 +17,16 @@
       (max-width:1199px)
 ------------------------------ */
 @media only screen and (max-width: 1199px) {
+  .long_container {
+    padding: 0px 0px;
+  }
   .custom_container {
     padding: 0px 16px;
   }
 
   .py_281 {
-    padding: 60px 0px;
+    padding: 80px 0px;
+    overflow-x: hidden;
   }
 
   .browser_img1 img,
@@ -65,7 +69,7 @@
 
   .review-card {
     margin: 0px 15px 0px;
-    padding: 30px;
+    padding: 34px;
   }
 
   .review-card .main_text {
@@ -93,7 +97,7 @@
     max-width: 800px;
   }
   .py_281 {
-    padding: 200px 0px;
+    padding: 150px 0px;
   }
 }
 /* --------------------------------------- 
@@ -105,7 +109,7 @@
     max-width: 700px;
   }
   .py_281 {
-    padding: 200px 0px;
+    padding: 110px 0px;
   }
 }
 
@@ -157,6 +161,11 @@
     padding: 20px 6px;
     background-color: #1c1c1e;
     margin-top: 16px;
+    height: 100%;
+  }
+
+  .icon_box {
+    margin: 0px 0px 0px 10px;
   }
 
   .header_wrap .navbar-expand-lg .navbar-nav .nav-link {
@@ -172,8 +181,27 @@
     transform: none;
     margin-top: 10px;
     padding: 20px;
-    max-height: 250px;
+  }
+  .header_wrap .dropdown-menu.header_menu1 .row{
+    max-height: 266px;
     overflow-y: auto;
+  }
+
+  .header_wrap .dropdown-menu.header_menu1 .row::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+
+  .header_wrap .dropdown-menu.header_menu1 .row::-webkit-scrollbar {
+    width: 6px;
+    margin-right: 5px;
+    /* background-color: transparent; */
+  }
+
+  .header_wrap .dropdown-menu.header_menu1 .row::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #218753;
+    background-color: #218753;
   }
 
   .header_wrap .header_menu2 {
@@ -183,7 +211,7 @@
   .header_wrap .navbar-nav {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
   }
 
   #toggle {
@@ -278,7 +306,7 @@
   }
 
   .review_box {
-    padding: 100px 16px;
+    padding: 100px 0px;
   }
 
   .integrations_box,

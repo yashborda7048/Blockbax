@@ -8,6 +8,7 @@ body {
   font-family: "GT America Regular";
 }
 
+.long_container ,
 .custom_container {
   padding: 0px 80px;
 }
@@ -69,6 +70,12 @@ img {
 
 .header_wrap .dropdown-toggle::after {
   display: none;
+}
+.header_wrap .dropdown-toggle .fa-angles-down {
+  transition: all ease 0.2s;
+}
+.header_wrap .dropdown-toggle.show .fa-angles-down {
+  transform: rotate(180deg);
 }
 
 .header_wrap .header_menu1 {
@@ -251,7 +258,7 @@ img {
 }
 
 .icon_box {
-  margin-left: 10px;
+  margin: 0px 30px 0px 15px;
 }
 
 .icon_box h4 {
@@ -305,7 +312,7 @@ img {
 
 /* start flexibility css */
 .py_281 {
-  padding: 281px 0px;
+  padding: 180px 0px;
 }
 
 .browser_img1 img {
@@ -357,13 +364,13 @@ img {
 
 /* start designed css */
 .bg_img_circle {
-  padding: 73px 0px 127px;
+  padding: 73px 0px 0px;
 }
 
 .circle_background {
   background-image: url(../../assets/image/circle.svg);
   width: 100%;
-  min-height: 800px;
+  min-height: 890px;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 57px;
@@ -455,11 +462,11 @@ img {
 }
 
 .logo_box_section {
-  gap: 20px;
+  gap: 16px;
 }
 
 .py_214 {
-  padding: 214px 0px;
+  padding: 114px 0px;
 }
 
 .enterprise_box .row-line {
