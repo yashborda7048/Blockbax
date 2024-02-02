@@ -207,7 +207,7 @@ img {
   display: flex;
   align-items: center;
   height: 29px;
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(5,19,12,1) 100%);
+  background: #040803;
 }
 
 .banner_video .dot{
