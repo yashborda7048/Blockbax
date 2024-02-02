@@ -350,7 +350,7 @@
     line-height: 34px;
   }
 
-  .banner_video {
+  .banner_video video{
     height: 500px;
   }
 
@@ -451,7 +451,7 @@
     margin: 20px auto 32px;
   }
 
-  .banner_video {
+  .banner_video video{
     height: 350px;
   }
 
@@ -517,6 +517,10 @@
 
   .bg_img_circle {
     padding: 60px 0px;
+  }
+
+  .logo_box_section  {
+    padding: 0px 16px;
   }
 
   .designed_text h1 {
