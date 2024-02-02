@@ -200,14 +200,14 @@ img {
 }
 
 .banner_video {
-  background-color: #000;
+  background-color: #040803;
 }
 
 .banner_video .dot_line {
   display: flex;
   align-items: center;
   height: 29px;
-  background: #040803;
+  background: #05130C;
 }
 
 .banner_video .dot{
@@ -220,7 +220,7 @@ img {
 .banner_video .dot:first-child{
   margin-left: 15px;
 }
-.banner_video video {
+.banner_video .video {
   height: 720px;
 }
 

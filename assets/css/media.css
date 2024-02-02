@@ -271,6 +271,10 @@
     line-height: 32px;
   }
 
+  .banner_video .video{
+    height: 660px;
+  }
+
   .counter {
     flex-wrap: wrap;
   }
@@ -350,7 +354,7 @@
     line-height: 34px;
   }
 
-  .banner_video video{
+  .banner_video .video{
     height: 500px;
   }
 
@@ -451,7 +455,7 @@
     margin: 20px auto 32px;
   }
 
-  .banner_video video{
+  .banner_video .video{
     height: 350px;
   }
 
@@ -660,5 +664,8 @@
   }
   .blog_card {
     max-width: 320px;
+  }
+  .banner_video .video{
+    height: 300px;
   }
 }

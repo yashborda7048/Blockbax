@@ -1,1100 +1,1307 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Blockbax | The Low-Code industrial IoT platform</title>
-    <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/font.css">
-    <link rel="stylesheet" href="assets/css/media.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blockbax | The Low-Code industrial IoT platform</title>
+    <link
+      rel="shortcut icon"
+      href="assets/image/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/font.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- start header section -->
     <div class="bg_img">
-        <header class="header_wrap">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid align-items-center px-0">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/image/logo.svg" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <!-- <i class="fa-solid fa-bars"></i> -->
-                        <div id="toggle"></div>
-                        <div id="sidebar"></div>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-4 mb-lg-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    platform
-                                    <i class="fa-solid fa-angles-down"></i>
-                                </a>
-                                <ul class="dropdown-menu header_menu1">
-                                    <div class="row gap_12">
-                                        <div class="col-sm-6">
-                                            <ul class="header_menu_list">
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-1.svg"
-                                                        alt="header_icon_1">
-                                                    <a href="javascript:void()">
-                                                        Overview
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-2.svg"
-                                                        alt="header_icon_2">
-                                                    <a href="javascript:void()">
-                                                        Features
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-3.svg"
-                                                        alt="header_icon_3">
-                                                    <a href="javascript:void()">
-                                                        Connectivity
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-4.svg"
-                                                        alt="header_icon_4">
-                                                    <a href="javascript:void()">
-                                                        Security
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <ul class="header_menu_list">
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-5.svg"
-                                                        alt="header_icon_5">
-                                                    <a href="javascript:void()">
-                                                        Web and Mobile Apps
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-6.svg"
-                                                        alt="header_icon_6">
-                                                    <a href="javascript:void()">
-                                                        Integrations
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-7.svg"
-                                                        alt="header_icon_7">
-                                                    <a href="javascript:void()">
-                                                        Pricing
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-8.svg"
-                                                        alt="header_icon_8">
-                                                    <a href="javascript:void()">
-                                                        Sensors
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    solutions
-                                    <i class="fa-solid fa-angles-down"></i>
-                                </a>
-                                <ul class="dropdown-menu header_menu1 header_menu2">
-                                    <div class="row gap_12">
-                                        <div class="col-sm-6">
-                                            <p class="header_menu_text">by industry</p>
-                                            <ul class="header_menu_list">
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-13.svg"
-                                                        alt="header_icon_13">
-                                                    <a href="javascript:void()">
-                                                        Agriculture
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-14.svg"
-                                                        alt="header_icon_14">
-                                                    <a href="javascript:void()">
-                                                        Construction
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-15.svg"
-                                                        alt="header_icon_15">
-                                                    <a href="javascript:void()">
-                                                        Energy
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-16.svg"
-                                                        alt="header_icon_16">
-                                                    <a href="javascript:void()">
-                                                        Logistics
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-17.svg"
-                                                        alt="header_icon_17">
-                                                    <a href="javascript:void()">
-                                                        Maritime
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-18.svg"
-                                                        alt="header_icon_18">
-                                                    <a href="javascript:void()">
-                                                        Manufacturing
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-19.svg"
-                                                        alt="header_icon_19">
-                                                    <a href="javascript:void()">
-                                                        Transportation
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <p class="header_menu_text">by Solution</p>
-                                            <ul class="header_menu_list">
-                                                <li><a href="javascript:void()">Greenhouse Climate Monitoring</a>
-                                                </li>
-                                                <li><a href="javascript:void()">Water Meter Monitoring</a></li>
-                                                <li><a href="javascript:void()">Water Quality Monitoring</a></li>
-                                                <li><a href="javascript:void()">Heat Pump & Energy Storage
-                                                        Monitoring</a></li>
-                                                <li><a href="javascript:void()">Construction & Road Monitoring</a>
-                                                </li>
-                                                <li><a href="javascript:void()">Machine Condition Monitoring</a>
-                                                </li>
-                                                <li><a href="javascript:void()">Machine Condition Monitoring</a>
-                                                </li>
-                                                <li><a href="javascript:void()">Asset Tracking</a></li>
-                                                <li><a href="javascript:void()">Vessel Tracking & Monitoring</a>
-                                                </li>
-                                                <li><a href="javascript:void()">Solar Plant Monitoring</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">docs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">pricing</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    company
-                                    <i class="fa-solid fa-angles-down"></i>
-                                </a>
-                                <ul class="dropdown-menu header_menu1">
-                                    <div class="row gap_12">
-                                        <div class="col-sm-6">
-                                            <ul class="header_menu_list">
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-9.svg"
-                                                        alt="header_icon_9">
-                                                    <a href="javascript:void()">
-                                                        About
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-10.svg"
-                                                        alt="header_icon_10">
-                                                    <a href="javascript:void()">
-                                                        Careers
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <ul class="header_menu_list">
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-11.svg"
-                                                        alt="header_icon_11">
-                                                    <a href="javascript:void()">
-                                                        Blog
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/image/header-icon/header-icon-12.svg"
-                                                        alt="header_icon_12">
-                                                    <a href="javascript:void()">
-                                                        Contact
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </ul>
-                            </li>
+      <header class="header_wrap">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid align-items-center px-0">
+            <a class="navbar-brand" href="#">
+              <img src="assets/image/logo.svg" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <!-- <i class="fa-solid fa-bars"></i> -->
+              <div id="toggle"></div>
+              <div id="sidebar"></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-4 mb-lg-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    platform
+                    <i class="fa-solid fa-angles-down"></i>
+                  </a>
+                  <ul class="dropdown-menu header_menu1">
+                    <div class="row gap_12">
+                      <div class="col-sm-6">
+                        <ul class="header_menu_list">
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-1.svg"
+                              alt="header_icon_1"
+                            />
+                            <a href="javascript:void()"> Overview </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-2.svg"
+                              alt="header_icon_2"
+                            />
+                            <a href="javascript:void()"> Features </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-3.svg"
+                              alt="header_icon_3"
+                            />
+                            <a href="javascript:void()"> Connectivity </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-4.svg"
+                              alt="header_icon_4"
+                            />
+                            <a href="javascript:void()"> Security </a>
+                          </li>
                         </ul>
-                        <form class="d-flex align-items-center gap-3">
-                            <button class="common_btn common_btn1">Login</button>
-                            <button class="common_btn">Request a demo</button>
-                        </form>
+                      </div>
+                      <div class="col-sm-6">
+                        <ul class="header_menu_list">
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-5.svg"
+                              alt="header_icon_5"
+                            />
+                            <a href="javascript:void()">
+                              Web and Mobile Apps
+                            </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-6.svg"
+                              alt="header_icon_6"
+                            />
+                            <a href="javascript:void()"> Integrations </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-7.svg"
+                              alt="header_icon_7"
+                            />
+                            <a href="javascript:void()"> Pricing </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-8.svg"
+                              alt="header_icon_8"
+                            />
+                            <a href="javascript:void()"> Sensors </a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                </div>
-            </nav>
-        </header>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    solutions
+                    <i class="fa-solid fa-angles-down"></i>
+                  </a>
+                  <ul class="dropdown-menu header_menu1 header_menu2">
+                    <div class="row gap_12">
+                      <div class="col-sm-6">
+                        <p class="header_menu_text">by industry</p>
+                        <ul class="header_menu_list">
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-13.svg"
+                              alt="header_icon_13"
+                            />
+                            <a href="javascript:void()"> Agriculture </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-14.svg"
+                              alt="header_icon_14"
+                            />
+                            <a href="javascript:void()"> Construction </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-15.svg"
+                              alt="header_icon_15"
+                            />
+                            <a href="javascript:void()"> Energy </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-16.svg"
+                              alt="header_icon_16"
+                            />
+                            <a href="javascript:void()"> Logistics </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-17.svg"
+                              alt="header_icon_17"
+                            />
+                            <a href="javascript:void()"> Maritime </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-18.svg"
+                              alt="header_icon_18"
+                            />
+                            <a href="javascript:void()"> Manufacturing </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-19.svg"
+                              alt="header_icon_19"
+                            />
+                            <a href="javascript:void()"> Transportation </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-6">
+                        <p class="header_menu_text">by Solution</p>
+                        <ul class="header_menu_list">
+                          <li>
+                            <a href="javascript:void()"
+                              >Greenhouse Climate Monitoring</a
+                            >
+                          </li>
+                          <li>
+                            <a href="javascript:void()"
+                              >Water Meter Monitoring</a
+                            >
+                          </li>
+                          <li>
+                            <a href="javascript:void()"
+                              >Water Quality Monitoring</a
+                            >
+                          </li>
+                          <li>
+                            <a href="javascript:void()"
+                              >Heat Pump & Energy Storage Monitoring</a
+                            >
+                          </li>
+                          <li>
+                            <a href="javascript:void()"
+                              >Construction & Road Monitoring</a
+                            >
+                          </li>
+                          <li>
+                            <a href="javascript:void()"
+                              >Machine Condition Monitoring</a
+                            >
+                          </li>
+                          <li>
+                            <a href="javascript:void()"
+                              >Machine Condition Monitoring</a
+                            >
+                          </li>
+                          <li>
+                            <a href="javascript:void()">Asset Tracking</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void()"
+                              >Vessel Tracking & Monitoring</a
+                            >
+                          </li>
+                          <li>
+                            <a href="javascript:void()"
+                              >Solar Plant Monitoring</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">docs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    company
+                    <i class="fa-solid fa-angles-down"></i>
+                  </a>
+                  <ul class="dropdown-menu header_menu1">
+                    <div class="row gap_12">
+                      <div class="col-sm-6">
+                        <ul class="header_menu_list">
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-9.svg"
+                              alt="header_icon_9"
+                            />
+                            <a href="javascript:void()"> About </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-10.svg"
+                              alt="header_icon_10"
+                            />
+                            <a href="javascript:void()"> Careers </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-6">
+                        <ul class="header_menu_list">
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-11.svg"
+                              alt="header_icon_11"
+                            />
+                            <a href="javascript:void()"> Blog </a>
+                          </li>
+                          <li>
+                            <img
+                              src="assets/image/header-icon/header-icon-12.svg"
+                              alt="header_icon_12"
+                            />
+                            <a href="javascript:void()"> Contact </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex align-items-center gap-3">
+                <button class="common_btn common_btn1">Login</button>
+                <button class="common_btn">Request a demo</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
 
-        <!-- start banner section -->
-        <div class="custom_container position-relative">
-            <div class="banner_section ">
-                <h1>The Low-Code industrial IoT platform</h1>
-                <h5>Meet the new standard for modern operational visibility and control. Unify contextual and sensor
-                    data
-                    without coding.</h5>
-                <div class="d-flex align-items-center justify-content-center gap-3">
-                    <button class="common_btn">Request a demo</button>
-                    <button class="common_btn common_btn1 d-flex align-items-center">
-                        <i class="fa-solid fa-circle-play me-2"></i>Watch video</button>
-                </div>
-            </div>
-            <div class="w-100 banner_video z-1 position-relative">
-                <div class="dot_line w-100">
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                </div>
-                <video class="w-100" loop autoplay muted controls preload="auto">
-                    <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
-                    <source src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
-                </video>
-            </div>
-            <div class="bg-round d-none d-xl-block"></div>
+      <!-- start banner section -->
+      <div class="custom_container position-relative">
+        <div class="banner_section">
+          <h1>The Low-Code industrial IoT platform</h1>
+          <h5>
+            Meet the new standard for modern operational visibility and control.
+            Unify contextual and sensor data without coding.
+          </h5>
+          <div class="d-flex align-items-center justify-content-center gap-3">
+            <button class="common_btn">Request a demo</button>
+            <button class="common_btn common_btn1 d-flex align-items-center">
+              <i class="fa-solid fa-circle-play me-2"></i>Watch video
+            </button>
+          </div>
         </div>
+        <div class="w-100 banner_video z-1 position-relative">
+          <div class="dot_line w-100">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="video">
+            <!-- <video class="w-100" loop autoplay muted controls preload="auto">
+              <source
+                src="http://media.w3.org/2010/05/sintel/trailer.mp4"
+                type="video/mp4"
+              />
+              <source
+                src="http://media.w3.org/2010/05/sintel/trailer.ogv"
+                type="video/ogg"
+              />
+            </video> -->
+          </div>
+        </div>
+        <div class="bg-round d-none d-xl-block"></div>
+      </div>
     </div>
 
     <!-- start logo section -->
     <div class="companies_section">
-        <h3>Blockbax is trusted by great companies</h3>
-        <div class="autoplay">
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="assets/image/companies-4.svg" alt="companies-4">
-            </div>
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="assets/image/companies-5.svg" alt="companies-5">
-            </div>
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="assets/image/companies-6.svg" alt="companies-6">
-            </div>
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="assets/image/companies-7.svg" alt="companies-7">
-            </div>
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="assets/image/companies-1.svg" alt="companies-1">
-            </div>
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="assets/image/companies-2.svg" alt="companies-2">
-            </div>
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="assets/image/companies-3.svg" alt="companies-3">
-            </div>
+      <h3>Blockbax is trusted by great companies</h3>
+      <div class="autoplay">
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/image/companies-4.svg" alt="companies-4" />
         </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/image/companies-5.svg" alt="companies-5" />
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/image/companies-6.svg" alt="companies-6" />
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/image/companies-7.svg" alt="companies-7" />
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/image/companies-1.svg" alt="companies-1" />
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/image/companies-2.svg" alt="companies-2" />
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/image/companies-3.svg" alt="companies-3" />
+        </div>
+      </div>
     </div>
 
     <!-- start why blockbax section -->
     <div class="blockbax_section">
-        <div class="custom_container">
-            <div class="row align-items-center">
-                <div class="col-lg-7 col-md-6">
-                    <div class="why_blockbax_section">
-                        <p>Why Blockbax</p>
-                        <h2>Businesses are <span>slowed</span> down in their growth and
-                            sustainability ambitions as they are unable to keep
-                            up with the evolving <span>demands</span> of their growing amount of assets and data</h2>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6">
-                    <img src="assets/image/blockbax-img.svg" alt="blockbax_img" class="d-block mx_auto">
-                </div>
+      <div class="custom_container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 col-md-6">
+            <div class="why_blockbax_section">
+              <p>Why Blockbax</p>
+              <h2>
+                Businesses are <span>slowed</span> down in their growth and
+                sustainability ambitions as they are unable to keep up with the
+                evolving <span>demands</span> of their growing amount of assets
+                and data
+              </h2>
             </div>
-            <div class="pt_80">
-                <div class="row row-gap-4">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="d-flex align-items-start">
-                            <img src="assets/image/icon-1.svg" alt="icon_1">
-                            <div class="icon_box">
-                                <h4>Unified view</h4>
-                                <h5 class="mb-0">No central overview in critical assets due to lots of different data
-                                    sources &
-                                    dashboards</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="d-flex align-items-start">
-                            <img src="assets/image/icon-2.svg" alt="icon_2">
-                            <div class="icon_box">
-                                <h4>The right insights</h4>
-                                <h5 class="mb-0">Unable to get the right insights from data at the moment it matters
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="d-flex align-items-start">
-                            <img src="assets/image/icon-3.svg" alt="icon_3">
-                            <div class="icon_box">
-                                <h4>Save development time</h4>
-                                <h5 class="mb-0">Reduce development time by using low-code building blocks</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <img
+              src="assets/image/blockbax-img.svg"
+              alt="blockbax_img"
+              class="d-block mx_auto"
+            />
+          </div>
         </div>
+        <div class="pt_80">
+          <div class="row row-gap-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="d-flex align-items-start">
+                <img src="assets/image/icon-1.svg" alt="icon_1" />
+                <div class="icon_box">
+                  <h4>Unified view</h4>
+                  <h5 class="mb-0">
+                    No central overview in critical assets due to lots of
+                    different data sources & dashboards
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="d-flex align-items-start">
+                <img src="assets/image/icon-2.svg" alt="icon_2" />
+                <div class="icon_box">
+                  <h4>The right insights</h4>
+                  <h5 class="mb-0">
+                    Unable to get the right insights from data at the moment it
+                    matters
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="d-flex align-items-start">
+                <img src="assets/image/icon-3.svg" alt="icon_3" />
+                <div class="icon_box">
+                  <h4>Save development time</h4>
+                  <h5 class="mb-0">
+                    Reduce development time by using low-code building blocks
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- start black theme section -->
     <div class="bg_black">
-        <div class="long_container">
-            <div class="py_100 pb-0">
-                <!-- row row-gap-4 -->
-                <div class="counter d-flex justify-content-around gap-4">
-                    <!-- <div class="col-lg-3 col-sm-6"> -->
-                    <div class="counter_section text-center">
-                        <h3>6 +Years</h3>
-                        <h4>Company History</h4>
-                    </div>
-                    <!-- </div> -->
-                    <!-- <div class="col-lg-3 col-sm-6"> -->
-                    <div class="counter_section text-center">
-                        <h3>30+ Countries</h3>
-                        <h4>Using Blockbax Globally</h4>
-                    </div>
-                    <!-- </div> -->
-                    <!-- <div class="col-lg-3 col-sm-6"> -->
-                    <div class="counter_section text-center">
-                        <h3>> 2 Billion Measurements</h3>
-                        <h4>Processed Per Month</h4>
-                    </div>
-                    <!-- </div> -->
-                    <!-- <div class="col-lg-3 col-sm-6"> -->
-                    <div class="counter_section text-center">
-                        <h3>200+</h3>
-                        <h4>Successful Projects</h4>
-                    </div>
-                    <!-- </div> -->
-                </div>
+      <div class="long_container">
+        <div class="py_100 pb-0">
+          <!-- row row-gap-4 -->
+          <div class="counter d-flex justify-content-around gap-4">
+            <!-- <div class="col-lg-3 col-sm-6"> -->
+            <div class="counter_section text-center">
+              <h3>6 +Years</h3>
+              <h4>Company History</h4>
             </div>
-
-            <!-- start flexibility section -->
-            <div class="position-relative">
-                <div class="browser_img1 d-lg-none d-block">
-                    <img src="assets/image/browser-1.svg" alt="browser_1">
-                </div>
-                <div class="py_281">
-                    <div class="row align-items-center">
-                        <div class="col-xl-5 col-lg-6 ">
-                            <div class="common_section ps-3 ps-xl-0 position-relative">
-                                <h2 class="text_white mb_40">Asset type flexibility</h2>
-                                <div class="common-box d-flex align-items-start gap-2 mb_40">
-                                    <img src="assets/image/icon-4.svg" alt="icon_4">
-                                    <div>
-                                        <h5 class="mb-0">Data model customization</h5>
-                                        <p class="mb-0">Easily create your own data model / common data model to handle
-                                            various types of
-                                            assets</p>
-                                    </div>
-                                </div>
-                                <div class="common-box d-flex align-items-start gap-2 mb_60">
-                                    <img src="assets/image/icon-5.svg" alt="icon_5">
-                                    <div>
-                                        <h5 class="mb-0">Data standardization for comparison</h5>
-                                        <p class="mb-0">Standardize data from different asset types to enable comparison
-                                            between different assets</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center gap-3">
-                                    <button class="common_btn">Learn more</button>
-                                    <button class="common_btn common_btn1">Contact sales</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="browser_img1 d-none d-lg-block">
-                    <img src="assets/image/browser-1.svg" alt="browser_1">
-                </div>
+            <!-- </div> -->
+            <!-- <div class="col-lg-3 col-sm-6"> -->
+            <div class="counter_section text-center">
+              <h3>30+ Countries</h3>
+              <h4>Using Blockbax Globally</h4>
             </div>
-
-            <!-- start configurable ui section -->
-            <div class="position-relative">
-                <div class="browser_img2">
-                    <img src="assets/image/browser-2.svg" alt="browser_2">
-                </div>
-                <div class="py_281">
-                    <div class="row align-items-center">
-                        <div class="col-xl-5 col-lg-7 offset-lg-5 offset-xl-7 ">
-                            <div class="common_section ps-3 ps-xl-0 position-relative">
-                                <h2 class="text_white mb_40">Fully configurable UI</h2>
-                                <div class="common-box d-flex align-items-start gap-2 mb_20">
-                                    <img src="assets/image/icon-6.svg" alt="icon_6">
-                                    <div>
-                                        <h5 class="mb-0">Configureable dashboards</h5>
-                                        <p class="mb-0">No-code configurable widgets, completely user role-based to
-                                            create and manage dashboards in Blockbax</p>
-                                    </div>
-                                </div>
-                                <div class="common-box d-flex align-items-start gap-2 mb_60">
-                                    <img src="assets/image/icon-7.svg" alt="icon_7">
-                                    <div>
-                                        <h5 class="mb-0">Whitelabeling</h5>
-                                        <p class="mb-0">Customize and brand the Blockbax platform with your own logo,
-                                            colors, and design elements</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center gap-3">
-                                    <button class="common_btn">Learn more</button>
-                                    <button class="common_btn common_btn1">Contact sales</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- </div> -->
+            <!-- <div class="col-lg-3 col-sm-6"> -->
+            <div class="counter_section text-center">
+              <h3>> 2 Billion Measurements</h3>
+              <h4>Processed Per Month</h4>
             </div>
-
-            <!-- start streaming analytics section -->
-            <div class="position-relative">
-                <div class="browser_img3 d-block d-xl-none">
-                    <img src="assets/image/browser-sm-3.svg" alt="browser_sm_3">
-                </div>
-                <div class="py_281">
-                    <div class="row align-items-center">
-                        <div class="col-xl-5 col-lg-6 ">
-                            <div class="common_section ps-3 ps-xl-0 position-relative">
-                                <h2 class="text_white mb_40">No-code streaming <br class="d-none d-lg-block" />
-                                    analytics & AI</h2>
-                                <div class="common-box d-flex align-items-start gap-2 mb_20">
-                                    <img src="assets/image/icon-8.svg" alt="icon_8">
-                                    <div>
-                                        <h5 class="mb-0">Real-Time event analysis</h5>
-                                        <p class="mb-0">Advanced event ruling and real-time calculations</p>
-                                    </div>
-                                </div>
-                                <div class="common-box d-flex align-items-start gap-2 mb_60">
-                                    <img src="assets/image/icon-9.svg" alt="icon_9">
-                                    <div>
-                                        <h5 class="mb-0">Predictive analytics</h5>
-                                        <p class="mb-0">Powered by AI</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center gap-3">
-                                    <button class="common_btn">Learn more</button>
-                                    <button class="common_btn common_btn1">Contact sales</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="browser_img3 d-none d-xl-block">
-                    <img src="assets/image/browser-3.svg" alt="browser_3">
-                </div>
+            <!-- </div> -->
+            <!-- <div class="col-lg-3 col-sm-6"> -->
+            <div class="counter_section text-center">
+              <h3>200+</h3>
+              <h4>Successful Projects</h4>
             </div>
-
-            <!-- start designed section -->
-            <div class="bg_img_circle">
-                <div class="circle_background">
-                    <div class="text-center mb_40">
-                        <div class="success_badge">
-                            Designed for everybody
-                        </div>
-                        <div class="designed_text">
-                            <h1 class="mb_20">Integrations, Open APIS & Hardware Independent</h1>
-                            <p>Platform agnostic, compatible with all types of hardware and standard connectors for all
-                                industry
-                                standards and protocols</p>
-                        </div>
-                    </div>
-
-                    <div class="logo_box_section d-flex flex-wrap justify-content-center mb_40">
-                        <div class="w_100">
-                            <div class="main_logo_box">
-                                <h5 class="text-center">IoT Devices</h5>
-                                <div class="d-flex flex-wrap gap_5">
-                                    <div class="logo_box">
-                                        <img src="assets/image/logo/wifi.svg" alt="wifi">
-                                    </div>
-                                    <div class="logo_box">
-                                        <img src="assets/image/logo/4G.svg" alt="wifi">
-                                    </div>
-                                    <div class="logo_box">
-                                        <img src="assets/image/logo/zigbee.svg" alt="wifi">
-                                    </div>
-                                    <div class="logo_box">
-                                        <!-- <img src="assets/image/logo/wifi.svg" alt="wifi"> -->
-                                    </div>
-                                    <div class="logo_box">
-                                        <img src="assets/image/logo/lte.svg" alt="wifi">
-                                    </div>
-                                    <div class="logo_box">
-                                        <!-- <img src="assets/image/logo/wifi.svg" alt="wifi"> -->
-                                    </div>
-                                    <div class="logo_box">
-                                        <img src="assets/image/logo/lora.svg" alt="wifi">
-                                    </div>
-                                    <div class="logo_box">
-                                        <img src="assets/image/logo/3G.svg" alt="wifi">
-                                    </div>
-                                    <div class="logo_box">
-                                        <img src="assets/image/logo/nb-iot.svg" alt="wifi">
-                                    </div>
-                                    <div class="logo_box">
-                                        <img src="assets/image/logo/5G.svg" alt="wifi">
-                                    </div>
-                                    <div class="logo_box">
-                                        <!-- <img src="assets/image/logo/wifi.svg" alt="wifi"> -->
-                                    </div>
-                                    <div class="logo_box">
-                                        <img src="assets/image/logo/wave.svg" alt="wifi">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w_100">
-                            <div class="main_logo_box">
-                                <h5 class="text-center">Automation protocols</h5>
-                                <div class="d-flex flex-wrap gap_5 mb_10">
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/bacnet.svg" alt="bacnet">
-                                    </div>
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/modbus.svg" alt="modbus">
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap gap_5 mb_10">
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/mbus.svg" alt="mbus">
-                                    </div>
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/opcua.svg" alt="opcua">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w_100">
-                            <div class="main_logo_box">
-                                <h5 class="text-center">Connectivity platforms</h5>
-                                <div class="d-flex flex-wrap gap_5 mb_10">
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/sigfox.svg" alt="sigfox">
-                                    </div>
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/t-mobile.svg" alt="t-mobile">
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap gap_5 mb_10">
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/vodafone.svg" alt="vodafone">
-                                    </div>
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/things-network.svg" alt="things-network">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w_100">
-                            <div class="main_logo_box">
-                                <h5 class="text-center">Streaming platforms</h5>
-                                <div class="d-flex flex-wrap gap_5 mb_10">
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/kafka.svg" alt="kafka">
-                                    </div>
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/cloud-pub.svg" alt="cloud">
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap gap_5 mb_10">
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/amazon.svg" alt="amazon">
-                                    </div>
-                                    <div class="lg_logo_box">
-                                        <img src="assets/image/logo/azure.svg" alt="azure">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="text-center">
-                        <button class="common_btn">Learn more</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="position-relative">
-                <div class="browser_img2">
-                    <img src="assets/image/browser-4.svg" alt="browser_4">
-                </div>
-                <div class="py_281">
-                    <div class="row align-items-center">
-                        <div class="col-xl-5 col-lg-7 offset-lg-5 offset-xl-7 ">
-                            <div class="common_section ps-3 ps-xl-0 position-relative">
-                                <h2 class="text_white mb_40">Control & Automation</h2>
-                                <div class="common-box d-flex align-items-start gap-2 mb_20">
-                                    <img src="assets/image/icon-10.svg" alt="icon_10">
-                                    <div>
-                                        <h5 class="mb-0">Control</h5>
-                                        <p class="mb-0">Remotely control assets by adjusting setpoints or sending
-                                            commands</p>
-                                    </div>
-                                </div>
-                                <div class="common-box d-flex align-items-start gap-2 mb_60">
-                                    <img src="assets/image/icon-11.svg" alt="icon_11">
-                                    <div>
-                                        <h5 class="mb-0">Automate</h5>
-                                        <p class="mb-0">Automate control by automatically initiating actions
-                                            when an event occurs</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center gap-3">
-                                    <button class="common_btn">Learn more</button>
-                                    <button class="common_btn common_btn1">Contact sales</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="py_214">
-                <div class="enterprise_box text_white">
-                    <h2 class="text-center mb_40">Enterprise-grade security</h2>
-                    <div class="row-line mx-auto justify-content-center row">
-                        <div class="col-6 col-lg-3">
-                            <img src="assets/image/iso.svg" alt="iso">
-                            <p>ISO 27001 <br>
-                                certified</p>
-                        </div>
-                        <div class="col-6 col-lg-3">
-                            <img src="assets/image/gdpr.svg" alt="gdpr">
-                            <p>GDPR <br>
-                                compliant</p>
-                        </div>
-                        <div class="col-6 col-lg-3">
-                            <img src="assets/image/eu-located.svg" alt="eu-located">
-                            <p>EU-located <br>
-                                servers</p>
-                        </div>
-                        <div class="col-6 col-lg-3 border-0">
-                            <img src="assets/image/check-round.svg" alt="check-round">
-                            <p>> 99.9% <br> availability</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- </div> -->
+          </div>
         </div>
+
+        <!-- start flexibility section -->
+        <div class="position-relative">
+          <div class="browser_img1 d-lg-none d-block">
+            <img src="assets/image/browser-1.svg" alt="browser_1" />
+          </div>
+          <div class="py_281">
+            <div class="row align-items-center">
+              <div class="col-xl-5 col-lg-6">
+                <div class="common_section ps-3 ps-xl-0 position-relative">
+                  <h2 class="text_white mb_40">Asset type flexibility</h2>
+                  <div class="common-box d-flex align-items-start gap-2 mb_40">
+                    <img src="assets/image/icon-4.svg" alt="icon_4" />
+                    <div>
+                      <h5 class="mb-0">Data model customization</h5>
+                      <p class="mb-0">
+                        Easily create your own data model / common data model to
+                        handle various types of assets
+                      </p>
+                    </div>
+                  </div>
+                  <div class="common-box d-flex align-items-start gap-2 mb_60">
+                    <img src="assets/image/icon-5.svg" alt="icon_5" />
+                    <div>
+                      <h5 class="mb-0">Data standardization for comparison</h5>
+                      <p class="mb-0">
+                        Standardize data from different asset types to enable
+                        comparison between different assets
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-3">
+                    <button class="common_btn">Learn more</button>
+                    <button class="common_btn common_btn1">
+                      Contact sales
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="browser_img1 d-none d-lg-block">
+            <img src="assets/image/browser-1.svg" alt="browser_1" />
+          </div>
+        </div>
+
+        <!-- start configurable ui section -->
+        <div class="position-relative">
+          <div class="browser_img2">
+            <img src="assets/image/browser-2.svg" alt="browser_2" />
+          </div>
+          <div class="py_281">
+            <div class="row align-items-center">
+              <div class="col-xl-5 col-lg-7 offset-lg-5 offset-xl-7">
+                <div class="common_section ps-3 ps-xl-0 position-relative">
+                  <h2 class="text_white mb_40">Fully configurable UI</h2>
+                  <div class="common-box d-flex align-items-start gap-2 mb_20">
+                    <img src="assets/image/icon-6.svg" alt="icon_6" />
+                    <div>
+                      <h5 class="mb-0">Configureable dashboards</h5>
+                      <p class="mb-0">
+                        No-code configurable widgets, completely user role-based
+                        to create and manage dashboards in Blockbax
+                      </p>
+                    </div>
+                  </div>
+                  <div class="common-box d-flex align-items-start gap-2 mb_60">
+                    <img src="assets/image/icon-7.svg" alt="icon_7" />
+                    <div>
+                      <h5 class="mb-0">Whitelabeling</h5>
+                      <p class="mb-0">
+                        Customize and brand the Blockbax platform with your own
+                        logo, colors, and design elements
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-3">
+                    <button class="common_btn">Learn more</button>
+                    <button class="common_btn common_btn1">
+                      Contact sales
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- start streaming analytics section -->
+        <div class="position-relative">
+          <div class="browser_img3 d-block d-xl-none">
+            <img src="assets/image/browser-sm-3.svg" alt="browser_sm_3" />
+          </div>
+          <div class="py_281">
+            <div class="row align-items-center">
+              <div class="col-xl-5 col-lg-6">
+                <div class="common_section ps-3 ps-xl-0 position-relative">
+                  <h2 class="text_white mb_40">
+                    No-code streaming <br class="d-none d-lg-block" />
+                    analytics & AI
+                  </h2>
+                  <div class="common-box d-flex align-items-start gap-2 mb_20">
+                    <img src="assets/image/icon-8.svg" alt="icon_8" />
+                    <div>
+                      <h5 class="mb-0">Real-Time event analysis</h5>
+                      <p class="mb-0">
+                        Advanced event ruling and real-time calculations
+                      </p>
+                    </div>
+                  </div>
+                  <div class="common-box d-flex align-items-start gap-2 mb_60">
+                    <img src="assets/image/icon-9.svg" alt="icon_9" />
+                    <div>
+                      <h5 class="mb-0">Predictive analytics</h5>
+                      <p class="mb-0">Powered by AI</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-3">
+                    <button class="common_btn">Learn more</button>
+                    <button class="common_btn common_btn1">
+                      Contact sales
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="browser_img3 d-none d-xl-block">
+            <img src="assets/image/browser-3.svg" alt="browser_3" />
+          </div>
+        </div>
+
+        <!-- start designed section -->
+        <div class="bg_img_circle">
+          <div class="circle_background">
+            <div class="text-center mb_40">
+              <div class="success_badge">Designed for everybody</div>
+              <div class="designed_text">
+                <h1 class="mb_20">
+                  Integrations, Open APIS & Hardware Independent
+                </h1>
+                <p>
+                  Platform agnostic, compatible with all types of hardware and
+                  standard connectors for all industry standards and protocols
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="logo_box_section d-flex flex-wrap justify-content-center mb_40"
+            >
+              <div class="w_100">
+                <div class="main_logo_box">
+                  <h5 class="text-center">IoT Devices</h5>
+                  <div class="d-flex flex-wrap gap_5">
+                    <div class="logo_box">
+                      <img src="assets/image/logo/wifi.svg" alt="wifi" />
+                    </div>
+                    <div class="logo_box">
+                      <img src="assets/image/logo/4G.svg" alt="wifi" />
+                    </div>
+                    <div class="logo_box">
+                      <img src="assets/image/logo/zigbee.svg" alt="wifi" />
+                    </div>
+                    <div class="logo_box">
+                      <!-- <img src="assets/image/logo/wifi.svg" alt="wifi"> -->
+                    </div>
+                    <div class="logo_box">
+                      <img src="assets/image/logo/lte.svg" alt="wifi" />
+                    </div>
+                    <div class="logo_box">
+                      <!-- <img src="assets/image/logo/wifi.svg" alt="wifi"> -->
+                    </div>
+                    <div class="logo_box">
+                      <img src="assets/image/logo/lora.svg" alt="wifi" />
+                    </div>
+                    <div class="logo_box">
+                      <img src="assets/image/logo/3G.svg" alt="wifi" />
+                    </div>
+                    <div class="logo_box">
+                      <img src="assets/image/logo/nb-iot.svg" alt="wifi" />
+                    </div>
+                    <div class="logo_box">
+                      <img src="assets/image/logo/5G.svg" alt="wifi" />
+                    </div>
+                    <div class="logo_box">
+                      <!-- <img src="assets/image/logo/wifi.svg" alt="wifi"> -->
+                    </div>
+                    <div class="logo_box">
+                      <img src="assets/image/logo/wave.svg" alt="wifi" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w_100">
+                <div class="main_logo_box">
+                  <h5 class="text-center">Automation protocols</h5>
+                  <div class="d-flex flex-wrap gap_5 mb_10">
+                    <div class="lg_logo_box">
+                      <img src="assets/image/logo/bacnet.svg" alt="bacnet" />
+                    </div>
+                    <div class="lg_logo_box">
+                      <img src="assets/image/logo/modbus.svg" alt="modbus" />
+                    </div>
+                  </div>
+                  <div class="d-flex flex-wrap gap_5 mb_10">
+                    <div class="lg_logo_box">
+                      <img src="assets/image/logo/mbus.svg" alt="mbus" />
+                    </div>
+                    <div class="lg_logo_box">
+                      <img src="assets/image/logo/opcua.svg" alt="opcua" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w_100">
+                <div class="main_logo_box">
+                  <h5 class="text-center">Connectivity platforms</h5>
+                  <div class="d-flex flex-wrap gap_5 mb_10">
+                    <div class="lg_logo_box">
+                      <img src="assets/image/logo/sigfox.svg" alt="sigfox" />
+                    </div>
+                    <div class="lg_logo_box">
+                      <img
+                        src="assets/image/logo/t-mobile.svg"
+                        alt="t-mobile"
+                      />
+                    </div>
+                  </div>
+                  <div class="d-flex flex-wrap gap_5 mb_10">
+                    <div class="lg_logo_box">
+                      <img
+                        src="assets/image/logo/vodafone.svg"
+                        alt="vodafone"
+                      />
+                    </div>
+                    <div class="lg_logo_box">
+                      <img
+                        src="assets/image/logo/things-network.svg"
+                        alt="things-network"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w_100">
+                <div class="main_logo_box">
+                  <h5 class="text-center">Streaming platforms</h5>
+                  <div class="d-flex flex-wrap gap_5 mb_10">
+                    <div class="lg_logo_box">
+                      <img src="assets/image/logo/kafka.svg" alt="kafka" />
+                    </div>
+                    <div class="lg_logo_box">
+                      <img src="assets/image/logo/cloud-pub.svg" alt="cloud" />
+                    </div>
+                  </div>
+                  <div class="d-flex flex-wrap gap_5 mb_10">
+                    <div class="lg_logo_box">
+                      <img src="assets/image/logo/amazon.svg" alt="amazon" />
+                    </div>
+                    <div class="lg_logo_box">
+                      <img src="assets/image/logo/azure.svg" alt="azure" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <button class="common_btn">Learn more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="position-relative">
+          <div class="browser_img2">
+            <img src="assets/image/browser-4.svg" alt="browser_4" />
+          </div>
+          <div class="py_281">
+            <div class="row align-items-center">
+              <div class="col-xl-5 col-lg-7 offset-lg-5 offset-xl-7">
+                <div class="common_section ps-3 ps-xl-0 position-relative">
+                  <h2 class="text_white mb_40">Control & Automation</h2>
+                  <div class="common-box d-flex align-items-start gap-2 mb_20">
+                    <img src="assets/image/icon-10.svg" alt="icon_10" />
+                    <div>
+                      <h5 class="mb-0">Control</h5>
+                      <p class="mb-0">
+                        Remotely control assets by adjusting setpoints or
+                        sending commands
+                      </p>
+                    </div>
+                  </div>
+                  <div class="common-box d-flex align-items-start gap-2 mb_60">
+                    <img src="assets/image/icon-11.svg" alt="icon_11" />
+                    <div>
+                      <h5 class="mb-0">Automate</h5>
+                      <p class="mb-0">
+                        Automate control by automatically initiating actions
+                        when an event occurs
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-3">
+                    <button class="common_btn">Learn more</button>
+                    <button class="common_btn common_btn1">
+                      Contact sales
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="py_214">
+          <div class="enterprise_box text_white">
+            <h2 class="text-center mb_40">Enterprise-grade security</h2>
+            <div class="row-line mx-auto justify-content-center row">
+              <div class="col-6 col-lg-3">
+                <img src="assets/image/iso.svg" alt="iso" />
+                <p>
+                  ISO 27001 <br />
+                  certified
+                </p>
+              </div>
+              <div class="col-6 col-lg-3">
+                <img src="assets/image/gdpr.svg" alt="gdpr" />
+                <p>
+                  GDPR <br />
+                  compliant
+                </p>
+              </div>
+              <div class="col-6 col-lg-3">
+                <img src="assets/image/eu-located.svg" alt="eu-located" />
+                <p>
+                  EU-located <br />
+                  servers
+                </p>
+              </div>
+              <div class="col-6 col-lg-3 border-0">
+                <img src="assets/image/check-round.svg" alt="check-round" />
+                <p>
+                  > 99.9% <br />
+                  availability
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- start review slider section -->
     <div class="review_box">
-        <div class="head">
-            <h2 class="text-center mb_20">Hear from our customers</h2>
-            <p class="text-center">See what's possible with Blockbax</p>
-        </div>
+      <div class="head">
+        <h2 class="text-center mb_20">Hear from our customers</h2>
+        <p class="text-center">See what's possible with Blockbax</p>
+      </div>
 
-        <div class="position-relative">
-            <div class="slider-nav">
-                <div class="review-card">
-                    <img src="assets/image/slider-1.svg" alt="slider-1" class="slider-logo">
-                    <div class="d-flex flex-column flex-lg-row align-items-lg-center  justify-content-between mb_20">
-                        <p class="main_text">“Blockbax is one of our important partners that help us in becoming the
-                            smartest
-                            electricity grid
-                            operator in the Netherlands. Their versatile and scalable solution gives us direct value to
-                            our
-                            business and our daily operations.”</p>
-                        <button class="read-btn">Read story</button>
-                    </div>
-                    <div class="avatar-box">
-                        <img src="assets/image/avatar.svg" alt="avatar">
-                        <div>
-                            <h4>Jaap Kohlmann</h4>
-                            <p>Manager Data Science</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <img src="assets/image/slider-2.svg" alt="slider-2" class="slider-logo">
-                    <div class="d-flex flex-column flex-lg-row align-items-lg-center  justify-content-between mb_20">
-                        <p class="main_text">“Blockbax is one of our important partners that help us in becoming the
-                            smartest
-                            electricity grid
-                            operator in the Netherlands. Their versatile and scalable solution gives us direct value to
-                            our
-                            business and our daily operations.”</p>
-                        <button class="read-btn">Read story</button>
-                    </div>
-                    <div class="avatar-box">
-                        <img src="assets/image/avatar.svg" alt="avatar">
-                        <div>
-                            <h4>Jaap Kohlmann</h4>
-                            <p>Manager Data Science</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <img src="assets/image/slider-3.svg" alt="slider-3" class="slider-logo">
-                    <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between mb_20">
-                        <p class="main_text">“Blockbax is one of our important partners that help us in becoming the
-                            smartest
-                            electricity grid
-                            operator in the Netherlands. Their versatile and scalable solution gives us direct value to
-                            our
-                            business and our daily operations.”</p>
-                        <button class="read-btn">Read story</button>
-                    </div>
-                    <div class="avatar-box">
-                        <img src="assets/image/avatar.svg" alt="avatar">
-                        <div>
-                            <h4>Jaap Kohlmann</h4>
-                            <p>Manager Data Science</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <img src="assets/image/slider-4.svg" alt="slider-4" class="slider-logo">
-                    <div class="d-flex flex-column flex-lg-row align-items-lg-center  justify-content-between mb_20">
-                        <p class="main_text">“Blockbax is one of our important partners that help us in becoming the
-                            smartest
-                            electricity grid
-                            operator in the Netherlands. Their versatile and scalable solution gives us direct value to
-                            our
-                            business and our daily operations.”</p>
-                        <button class="read-btn">Read story</button>
-                    </div>
-                    <div class="avatar-box">
-                        <img src="assets/image/avatar.svg" alt="avatar">
-                        <div>
-                            <h4>Jaap Kohlmann</h4>
-                            <p>Manager Data Science</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <img src="assets/image/slider-5.svg" alt="slider-5" class="slider-logo">
-                    <div class="d-flex flex-column flex-lg-row align-items-lg-center  justify-content-between mb_20">
-                        <p class="main_text">“Blockbax is one of our important partners that help us in becoming the
-                            smartest
-                            electricity grid
-                            operator in the Netherlands. Their versatile and scalable solution gives us direct value to
-                            our
-                            business and our daily operations.”</p>
-                        <button class="read-btn">Read story</button>
-                    </div>
-                    <div class="avatar-box">
-                        <img src="assets/image/avatar.svg" alt="avatar">
-                        <div>
-                            <h4>Jaap Kohlmann</h4>
-                            <p>Manager Data Science</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="position-relative">
+        <div class="slider-nav">
+          <div class="review-card">
+            <img
+              src="assets/image/slider-1.svg"
+              alt="slider-1"
+              class="slider-logo"
+            />
+            <div
+              class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between mb_20"
+            >
+              <p class="main_text">
+                “Blockbax is one of our important partners that help us in
+                becoming the smartest electricity grid operator in the
+                Netherlands. Their versatile and scalable solution gives us
+                direct value to our business and our daily operations.”
+              </p>
+              <button class="read-btn">Read story</button>
             </div>
-            <div class="slick-arrow">
-                <i class="slick-prev fas fa-arrow-left" id="prev"></i>
-                <i class="slick-next fas fa-arrow-right" id="next"></i>
+            <div class="avatar-box">
+              <img src="assets/image/avatar.svg" alt="avatar" />
+              <div>
+                <h4>Jaap Kohlmann</h4>
+                <p>Manager Data Science</p>
+              </div>
             </div>
+          </div>
+          <div class="review-card">
+            <img
+              src="assets/image/slider-2.svg"
+              alt="slider-2"
+              class="slider-logo"
+            />
+            <div
+              class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between mb_20"
+            >
+              <p class="main_text">
+                “Blockbax is one of our important partners that help us in
+                becoming the smartest electricity grid operator in the
+                Netherlands. Their versatile and scalable solution gives us
+                direct value to our business and our daily operations.”
+              </p>
+              <button class="read-btn">Read story</button>
+            </div>
+            <div class="avatar-box">
+              <img src="assets/image/avatar.svg" alt="avatar" />
+              <div>
+                <h4>Jaap Kohlmann</h4>
+                <p>Manager Data Science</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <img
+              src="assets/image/slider-3.svg"
+              alt="slider-3"
+              class="slider-logo"
+            />
+            <div
+              class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between mb_20"
+            >
+              <p class="main_text">
+                “Blockbax is one of our important partners that help us in
+                becoming the smartest electricity grid operator in the
+                Netherlands. Their versatile and scalable solution gives us
+                direct value to our business and our daily operations.”
+              </p>
+              <button class="read-btn">Read story</button>
+            </div>
+            <div class="avatar-box">
+              <img src="assets/image/avatar.svg" alt="avatar" />
+              <div>
+                <h4>Jaap Kohlmann</h4>
+                <p>Manager Data Science</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <img
+              src="assets/image/slider-4.svg"
+              alt="slider-4"
+              class="slider-logo"
+            />
+            <div
+              class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between mb_20"
+            >
+              <p class="main_text">
+                “Blockbax is one of our important partners that help us in
+                becoming the smartest electricity grid operator in the
+                Netherlands. Their versatile and scalable solution gives us
+                direct value to our business and our daily operations.”
+              </p>
+              <button class="read-btn">Read story</button>
+            </div>
+            <div class="avatar-box">
+              <img src="assets/image/avatar.svg" alt="avatar" />
+              <div>
+                <h4>Jaap Kohlmann</h4>
+                <p>Manager Data Science</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <img
+              src="assets/image/slider-5.svg"
+              alt="slider-5"
+              class="slider-logo"
+            />
+            <div
+              class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between mb_20"
+            >
+              <p class="main_text">
+                “Blockbax is one of our important partners that help us in
+                becoming the smartest electricity grid operator in the
+                Netherlands. Their versatile and scalable solution gives us
+                direct value to our business and our daily operations.”
+              </p>
+              <button class="read-btn">Read story</button>
+            </div>
+            <div class="avatar-box">
+              <img src="assets/image/avatar.svg" alt="avatar" />
+              <div>
+                <h4>Jaap Kohlmann</h4>
+                <p>Manager Data Science</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="slick-arrow">
+          <i class="slick-prev fas fa-arrow-left" id="prev"></i>
+          <i class="slick-next fas fa-arrow-right" id="next"></i>
+        </div>
+      </div>
 
-        <div class="slider-for">
-            <div class="nav_slider_logo">
-                <img src="assets/image/slider-1.svg" alt="slider-1">
-            </div>
-            <div class="nav_slider_logo">
-                <img src="assets/image/slider-2.svg" alt="slider-2">
-            </div>
-            <div class="nav_slider_logo">
-                <img src="assets/image/slider-3.svg" alt="slider-3">
-            </div>
-            <div class="nav_slider_logo">
-                <img src="assets/image/slider-4.svg" alt="slider-4">
-            </div>
-            <div class="nav_slider_logo">
-                <img src="assets/image/slider-5.svg" alt="slider-5">
-            </div>
+      <div class="slider-for">
+        <div class="nav_slider_logo">
+          <img src="assets/image/slider-1.svg" alt="slider-1" />
         </div>
+        <div class="nav_slider_logo">
+          <img src="assets/image/slider-2.svg" alt="slider-2" />
+        </div>
+        <div class="nav_slider_logo">
+          <img src="assets/image/slider-3.svg" alt="slider-3" />
+        </div>
+        <div class="nav_slider_logo">
+          <img src="assets/image/slider-4.svg" alt="slider-4" />
+        </div>
+        <div class="nav_slider_logo">
+          <img src="assets/image/slider-5.svg" alt="slider-5" />
+        </div>
+      </div>
     </div>
 
     <!-- start integration slider section -->
     <div class="integrations_box bg_black">
-        <div class="custom_container">
-            <div class="head mx-auto">
-                <h2 class="text-center text_white mb_20">Integrations, Open APIS & Hardware Independent</h2>
-                <p class="text-center mx-auto">Platform agnostic, compatible with all types of hardware and standard
-                    connectors
-                    for all industry standards and protocols</p>
-            </div>
+      <div class="custom_container">
+        <div class="head mx-auto">
+          <h2 class="text-center text_white mb_20">
+            Integrations, Open APIS & Hardware Independent
+          </h2>
+          <p class="text-center mx-auto">
+            Platform agnostic, compatible with all types of hardware and
+            standard connectors for all industry standards and protocols
+          </p>
         </div>
-        <div class="slider-blog">
-            <div class="blog_card">
-                <img src="assets/image/check-blog.svg" alt="check-blog" class="check">
-                <!-- <i class="check fas fa-arrow-right-long"></i> -->
-                <img src="assets/image/blog-1.svg" alt="blog-1" class="main-img">
-                <div class="body">
-                    <h4 class="text_white">Greenhouse Climate Monitoring</h4>
-                    <p class="main_text text_white">Opting for a smart greenhouse means you will have
-                        all-encompassing control over your
-                        greenhouse climate, and the more control you have, the better your crop will grow.</p>
-                    <div class="tag_line">
-                        <p>agriculture</p>
-                    </div>
-                </div>
+      </div>
+      <div class="slider-blog">
+        <div class="blog_card">
+          <img
+            src="assets/image/check-blog.svg"
+            alt="check-blog"
+            class="check"
+          />
+          <!-- <i class="check fas fa-arrow-right-long"></i> -->
+          <img src="assets/image/blog-1.svg" alt="blog-1" class="main-img" />
+          <div class="body">
+            <h4 class="text_white">Greenhouse Climate Monitoring</h4>
+            <p class="main_text text_white">
+              Opting for a smart greenhouse means you will have all-encompassing
+              control over your greenhouse climate, and the more control you
+              have, the better your crop will grow.
+            </p>
+            <div class="tag_line">
+              <p>agriculture</p>
             </div>
-            <div class="blog_card">
-                <img src="assets/image/check-blog.svg" alt="check-blog" class="check">
-                <!-- <i class="check fas fa-arrow-right-long"></i> -->
-                <img src="assets/image/blog-2.svg" alt="blog-2" class="main-img">
-                <div class="body">
-                    <h4 class="text_white">Water Quality Monitoring</h4>
-                    <p class="main_text text_white">Monitoring the chemical condition of water, sediments, and fish
-                        tissue to determine levels of
-                        key constituents such as dissolved oxygen, nutrients, metals, oils, and pesticides.</p>
-                    <div class="tag_line">
-                        <p>water</p>
-                        <p>utilities</p>
-                        <p>agriculture</p>
-                        <p>government</p>
-                    </div>
-                </div>
-            </div>
-            <div class="blog_card">
-                <img src="assets/image/check-blog.svg" alt="check-blog" class="check">
-                <!-- <i class="check fas fa-arrow-right-long"></i> -->
-                <img src="assets/image/blog-3.svg" alt="blog-3" class="main-img">
-                <div class="body">
-                    <h4 class="text_white">Construction & Road Monitoring</h4>
-                    <p class="main_text text_white">The safety of road construction is one of the most important
-                        concerns of construction
-                        managers. With the fast development of UAV and AI, monitoring safety of road construction
-                        becomes accessible.</p>
-                    <div class="tag_line">
-                        <p>water</p>
-                        <p>utilities</p>
-                        <p>agriculture</p>
-                        <p>government</p>
-                    </div>
-                </div>
-            </div>
-            <div class="blog_card">
-                <img src="assets/image/check-blog.svg" alt="check-blog" class="check">
-                <!-- <i class="check fas fa-arrow-right-long"></i> -->
-                <img src="assets/image/blog-4.svg" alt="blog-4" class="main-img">
-                <div class="body">
-                    <h4 class="text_white">Vessel Tracking & Monitoring</h4>
-                    <p class="main_text text_white">Real-time view of marine traffic, from a global overview to
-                        single ships. Vessel tracking
-                        software monitors the movements of ships, boats, and other marine vessels.</p>
-                    <div class="tag_line">
-                        <p>maritme</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="blog_card">
+          <img
+            src="assets/image/check-blog.svg"
+            alt="check-blog"
+            class="check"
+          />
+          <!-- <i class="check fas fa-arrow-right-long"></i> -->
+          <img src="assets/image/blog-2.svg" alt="blog-2" class="main-img" />
+          <div class="body">
+            <h4 class="text_white">Water Quality Monitoring</h4>
+            <p class="main_text text_white">
+              Monitoring the chemical condition of water, sediments, and fish
+              tissue to determine levels of key constituents such as dissolved
+              oxygen, nutrients, metals, oils, and pesticides.
+            </p>
+            <div class="tag_line">
+              <p>water</p>
+              <p>utilities</p>
+              <p>agriculture</p>
+              <p>government</p>
+            </div>
+          </div>
+        </div>
+        <div class="blog_card">
+          <img
+            src="assets/image/check-blog.svg"
+            alt="check-blog"
+            class="check"
+          />
+          <!-- <i class="check fas fa-arrow-right-long"></i> -->
+          <img src="assets/image/blog-3.svg" alt="blog-3" class="main-img" />
+          <div class="body">
+            <h4 class="text_white">Construction & Road Monitoring</h4>
+            <p class="main_text text_white">
+              The safety of road construction is one of the most important
+              concerns of construction managers. With the fast development of
+              UAV and AI, monitoring safety of road construction becomes
+              accessible.
+            </p>
+            <div class="tag_line">
+              <p>water</p>
+              <p>utilities</p>
+              <p>agriculture</p>
+              <p>government</p>
+            </div>
+          </div>
+        </div>
+        <div class="blog_card">
+          <img
+            src="assets/image/check-blog.svg"
+            alt="check-blog"
+            class="check"
+          />
+          <!-- <i class="check fas fa-arrow-right-long"></i> -->
+          <img src="assets/image/blog-4.svg" alt="blog-4" class="main-img" />
+          <div class="body">
+            <h4 class="text_white">Vessel Tracking & Monitoring</h4>
+            <p class="main_text text_white">
+              Real-time view of marine traffic, from a global overview to single
+              ships. Vessel tracking software monitors the movements of ships,
+              boats, and other marine vessels.
+            </p>
+            <div class="tag_line">
+              <p>maritme</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- start integration section -->
     <div class="integrations_box bg_dark">
-        <div class="custom_container">
-            <div class="head mx-auto">
-                <h2 class="text-center text_white mb_20">Integrations, Open APIS & Hardware Independent</h2>
-                <p class="text-center mx-auto">Platform agnostic, compatible with all types of hardware and standard
-                    connectors for all industry standards and protocols</p>
-            </div>
-            <div class="row row-gap-3 align-items-center justify-content-center">
-                <div class="col-lg-5 col-xl-6">
-                    <div class="main_post">
-                        <img src="assets/image/post-1.svg" alt="post-1">
-                        <div class="body">
-                            <div class="teg mb-3">
-                                Platform highlights
-                            </div>
-                            <h3 class="text_white mb-3">Platform highlights July</h3>
-                            <p class="">We 💚 fast and frequent releases. New features are added on a <br
-                                    class="d-none d-xxl-block">
-                                daily basis, and this blog series will showcase our favorite new features</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-xl-6">
-                    <div class="d-flex flex-column align-iems-center gap-3 ms-xl-4">
-                        <div class="post_card">
-                            <img src="assets/image/post-2.svg" alt="post-2">
-                            <div class="body">
-                                <div class="teg">
-                                    Award
-                                </div>
-                                <h3 class="text_white mb-0">Nominated for the
-                                    Computable.nl Awards</h3>
-                            </div>
-                        </div>
-                        <div class="post_card">
-                            <img src="assets/image/post-3.svg" alt="post-3">
-                            <div class="body">
-                                <div class="teg">
-                                    Partnership
-                                </div>
-                                <h3 class="text_white mb-0">We are thrilled to have signed a long-term agreement to
-                                    support
-                                    TechBinder</h3>
-                            </div>
-                        </div>
-                        <div class="post_card">
-                            <img src="assets/image/post-4.svg" alt="post-4">
-                            <div class="body">
-                                <div class="teg">
-                                    Platform highlights
-                                </div>
-                                <h3 class="text_white mb-0">Introducing an exciting new feature, the Repeater widget!
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="custom_container">
+        <div class="head mx-auto">
+          <h2 class="text-center text_white mb_20">
+            Integrations, Open APIS & Hardware Independent
+          </h2>
+          <p class="text-center mx-auto">
+            Platform agnostic, compatible with all types of hardware and
+            standard connectors for all industry standards and protocols
+          </p>
         </div>
+        <div class="row row-gap-3 align-items-center justify-content-center">
+          <div class="col-lg-5 col-xl-6">
+            <div class="main_post">
+              <img src="assets/image/post-1.svg" alt="post-1" />
+              <div class="body">
+                <div class="teg mb-3">Platform highlights</div>
+                <h3 class="text_white mb-3">Platform highlights July</h3>
+                <p class="">
+                  We 💚 fast and frequent releases. New features are added on a
+                  <br class="d-none d-xxl-block" />
+                  daily basis, and this blog series will showcase our favorite
+                  new features
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-xl-6">
+            <div class="d-flex flex-column align-iems-center gap-3 ms-xl-4">
+              <div class="post_card">
+                <img src="assets/image/post-2.svg" alt="post-2" />
+                <div class="body">
+                  <div class="teg">Award</div>
+                  <h3 class="text_white mb-0">
+                    Nominated for the Computable.nl Awards
+                  </h3>
+                </div>
+              </div>
+              <div class="post_card">
+                <img src="assets/image/post-3.svg" alt="post-3" />
+                <div class="body">
+                  <div class="teg">Partnership</div>
+                  <h3 class="text_white mb-0">
+                    We are thrilled to have signed a long-term agreement to
+                    support TechBinder
+                  </h3>
+                </div>
+              </div>
+              <div class="post_card">
+                <img src="assets/image/post-4.svg" alt="post-4" />
+                <div class="body">
+                  <div class="teg">Platform highlights</div>
+                  <h3 class="text_white mb-0">
+                    Introducing an exciting new feature, the Repeater widget!
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- start started section -->
     <div class="start_box">
-        <div class="custom_container">
-            <div class="row row-gap-5">
-                <div class="col-lg-6">
-                    <h1 class="mb_20">Ready to get <br class="d-none d-lg-block"> started?</h1>
-                    <div class="d-flex align-items-center">
-                        <button class="features_btn">See features <i class="fas fa-angles-right"></i></button>
-                        <button class="trial_btn">Request trial <i class="fas fa-angles-right"></i></button>
-                    </div>
-                    <div class="logo_line">
-                        <div>
-                            <img src="assets/image/aws.svg" alt="aws">
-                        </div>
-                        <div>
-                            <img src="assets/image/azure.svg" alt="azure">
-                        </div>
-                        <div>
-                            <img src="assets/image/mendix.svg" alt="mendix">
-                        </div>
-                        <div class="border-0">
-                            <img src="assets/image/iso-27001.svg" alt="iso-27001">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="text-center">
-                        <img src="assets/image/start-main.svg" alt="start-main">
-                    </div>
-                </div>
+      <div class="custom_container">
+        <div class="row row-gap-5">
+          <div class="col-lg-6">
+            <h1 class="mb_20">
+              Ready to get <br class="d-none d-lg-block" />
+              started?
+            </h1>
+            <div class="d-flex align-items-center">
+              <button class="features_btn">
+                See features <i class="fas fa-angles-right"></i>
+              </button>
+              <button class="trial_btn">
+                Request trial <i class="fas fa-angles-right"></i>
+              </button>
             </div>
+            <div class="logo_line">
+              <div>
+                <img src="assets/image/aws.svg" alt="aws" />
+              </div>
+              <div>
+                <img src="assets/image/azure.svg" alt="azure" />
+              </div>
+              <div>
+                <img src="assets/image/mendix.svg" alt="mendix" />
+              </div>
+              <div class="border-0">
+                <img src="assets/image/iso-27001.svg" alt="iso-27001" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-center">
+              <img src="assets/image/start-main.svg" alt="start-main" />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- start footer section -->
     <footer class="footer">
-        <div class="custom_container">
-            <div class="row row-gap-3 justify-content-between">
-                <div class="col-md-8">
-                    <div class="row row-gap-3">
-                        <div class="col-md-6 col-lg-3">
-                            <h5 class="text-uppercase">Platform</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="footer-link">Overview</a></li>
-                                <li><a href="#" class="footer-link">Features</a></li>
-                                <li><a href="#" class="footer-link">Connectivity</a></li>
-                                <li><a href="#" class="footer-link">Security</a></li>
-                                <li><a href="#" class="footer-link">Web and Mobile Apps</a></li>
-                                <li><a href="#" class="footer-link">Integrations</a></li>
-                                <li><a href="#" class="footer-link mb-0">Pricing</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <h5 class="text-uppercase">Solutions</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="footer-link">Energy</a></li>
-                                <li><a href="#" class="footer-link">Agriculture</a></li>
-                                <li><a href="#" class="footer-link">Construction</a></li>
-                                <li><a href="#" class="footer-link">Smart Buildings</a></li>
-                                <li><a href="#" class="footer-link">Smart Cities</a></li>
-                                <li><a href="#" class="footer-link">Water</a></li>
-                                <li><a href="#" class="footer-link mb-0">Device & Sensor Makers</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <h5 class="text-uppercase">Partners</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="footer-link">How To Become A Partner</a></li>
-                                <li><a href="#" class="footer-link">System Integrators</a></li>
-                                <li><a href="#" class="footer-link">Implementation Partners</a></li>
-                                <li><a href="#" class="footer-link">Solution Partners</a></li>
-                                <li><a href="#" class="footer-link mb-0">Technology Partners</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <h5 class="text-uppercase">Company</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="footer-link">About Us</a></li>
-                                <li><a href="#" class="footer-link">Blog</a></li>
-                                <li><a href="#" class="footer-link">Careers</a></li>
-                                <li><a href="#" class="footer-link mb-0">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="company-section text_white ">
-                        <img src="assets/image/logo.svg" alt="logo" class="mb_40">
-                        <p class="lead mb_40">Ready to grow?</p>
-                        <div class="d-flex align-items-center row-gap-3 flex-wrap">
-                            <button class="btn btn-success ">Request trial</button>
-                            <button class="btn btn-outline-light ">Contact us <i
-                                    class="fas fa-angles-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="d-flex align-items-center flex-column flex-md-row justify-content-between row-gap-4 bottom_line">
-                    <p class=" mb-0">Copyright Blockbax 2023, All rights reserved. Our <a href="#"
-                            class="text_white">Cookie
-                            Policy</a> and <a href="#" class="text_white">Privacy Policy
-                        </a> apply.</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
+      <div class="custom_container">
+        <div class="row row-gap-3 justify-content-between">
+          <div class="col-md-8">
+            <div class="row row-gap-3">
+              <div class="col-md-6 col-lg-3">
+                <h5 class="text-uppercase">Platform</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">Overview</a></li>
+                  <li><a href="#" class="footer-link">Features</a></li>
+                  <li><a href="#" class="footer-link">Connectivity</a></li>
+                  <li><a href="#" class="footer-link">Security</a></li>
+                  <li>
+                    <a href="#" class="footer-link">Web and Mobile Apps</a>
+                  </li>
+                  <li><a href="#" class="footer-link">Integrations</a></li>
+                  <li><a href="#" class="footer-link mb-0">Pricing</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <h5 class="text-uppercase">Solutions</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">Energy</a></li>
+                  <li><a href="#" class="footer-link">Agriculture</a></li>
+                  <li><a href="#" class="footer-link">Construction</a></li>
+                  <li><a href="#" class="footer-link">Smart Buildings</a></li>
+                  <li><a href="#" class="footer-link">Smart Cities</a></li>
+                  <li><a href="#" class="footer-link">Water</a></li>
+                  <li>
+                    <a href="#" class="footer-link mb-0"
+                      >Device & Sensor Makers</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <h5 class="text-uppercase">Partners</h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="footer-link">How To Become A Partner</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer-link">System Integrators</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer-link">Implementation Partners</a>
+                  </li>
+                  <li><a href="#" class="footer-link">Solution Partners</a></li>
+                  <li>
+                    <a href="#" class="footer-link mb-0">Technology Partners</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <h5 class="text-uppercase">Company</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">About Us</a></li>
+                  <li><a href="#" class="footer-link">Blog</a></li>
+                  <li><a href="#" class="footer-link">Careers</a></li>
+                  <li><a href="#" class="footer-link mb-0">Contact</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
+          <div class="col-md-3">
+            <div class="company-section text_white">
+              <img src="assets/image/logo.svg" alt="logo" class="mb_40" />
+              <p class="lead mb_40">Ready to grow?</p>
+              <div class="d-flex align-items-center row-gap-3 flex-wrap">
+                <button class="btn btn-success">Request trial</button>
+                <button class="btn btn-outline-light">
+                  Contact us <i class="fas fa-angles-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center flex-column flex-md-row justify-content-between row-gap-4 bottom_line"
+          >
+            <p class="mb-0">
+              Copyright Blockbax 2023, All rights reserved. Our
+              <a href="#" class="text_white">Cookie Policy</a> and
+              <a href="#" class="text_white">Privacy Policy </a> apply.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
