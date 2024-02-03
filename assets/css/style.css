@@ -8,7 +8,6 @@ body {
   font-family: "GT America Regular";
 }
 
-.long_container,
 .custom_container {
   padding: 0px 80px;
 }
@@ -30,6 +29,15 @@ img {
   background-repeat: no-repeat;
   background-color: #1c1c1e;
   position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #1c1c1e;
 }
 
 /* start header css */
@@ -70,12 +78,6 @@ img {
 
 .header_wrap .dropdown-toggle::after {
   display: none;
-}
-.header_wrap .dropdown-toggle .fa-angles-down {
-  transition: all ease 0.2s;
-}
-.header_wrap .dropdown-toggle.show .fa-angles-down {
-  transform: rotate(180deg);
 }
 
 .header_wrap .header_menu1 {
@@ -201,6 +203,7 @@ img {
 
 .banner_video {
   background-color: #040803;
+  border-radius: 6px;
 }
 
 .banner_video .dot_line {
@@ -278,7 +281,7 @@ img {
 }
 
 .icon_box {
-  margin: 0px 30px 0px 15px;
+  margin-left: 10px;
 }
 
 .icon_box h4 {
@@ -331,8 +334,12 @@ img {
 }
 
 /* start flexibility css */
-.py_281 {
-  padding: 180px 0px;
+.py_160 {
+  padding: 160px 0px;
+}
+
+.common_section {
+  padding-top: 81px;
 }
 
 .browser_img1 img {
@@ -384,13 +391,13 @@ img {
 
 /* start designed css */
 .bg_img_circle {
-  padding: 73px 0px 0px;
+  padding: 80px 0px;
 }
 
 .circle_background {
   background-image: url(../../assets/image/circle.svg);
   width: 100%;
-  min-height: 890px;
+  min-height: 800px;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 57px;
@@ -436,7 +443,10 @@ img {
   padding: 40px 15px 10px;
   border-radius: 16px;
   border: 1px solid #303030;
-  background: linear-gradient(180deg, #2b2b2b 0%, #1a1a1a 100%);
+  background: var(
+    --Gradient-Card-Dark,
+    linear-gradient(180deg, #2b2b2b 0%, #1a1a1a 100%)
+  );
   box-shadow: 0px 1px 4px 0px rgba(37, 39, 59, 0.1);
   max-width: 385px;
 }
@@ -479,11 +489,11 @@ img {
 }
 
 .logo_box_section {
-  gap: 16px;
+  gap: 20px;
 }
 
 .py_214 {
-  padding: 114px 0px;
+  padding: 214px 0px;
 }
 
 .enterprise_box .row-line {
@@ -1038,7 +1048,7 @@ img {
   letter-spacing: 0.07px;
 }
 
-.bg-round {
+.bg_round {
   width: 583px;
   height: 583px;
   border-radius: 999px;
