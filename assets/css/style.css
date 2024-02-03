@@ -210,17 +210,19 @@ img {
   display: flex;
   align-items: center;
   height: 29px;
-  background: #05130C;
+  background: #05130c;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
-.banner_video .dot{
+.banner_video .dot {
   background-color: #000;
   width: 10px;
   height: 10px;
   border-radius: 10px;
   margin-left: 4px;
 }
-.banner_video .dot:first-child{
+.banner_video .dot:first-child {
   margin-left: 15px;
 }
 .banner_video .video {
