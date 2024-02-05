@@ -50,13 +50,13 @@ img {
 }
 
 .header_wrap.nav-fixed {
-  box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+  /* box-shadow: 0 0 5px rgb(0 0 0 / 15%);
   position: fixed;
   right: 0;
   left: 0;
   top: 0;
   z-index: 999;
-  background: #1c1c1e;
+  background: #1c1c1e; */
 }
 
 .header_wrap .navbar {
