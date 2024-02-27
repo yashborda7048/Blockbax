@@ -5,9 +5,11 @@
   .bg_img {
     background-position: center 0%;
   }
+
   .main_logo_box {
     max-width: 365px;
   }
+
   .post_card .body h3 {
     max-width: 294px;
   }
@@ -29,15 +31,32 @@
   .custom_container {
     padding: 0px 40px;
   }
+
   .counter .counter_section h3 {
     font-size: 28px;
   }
+
   .counter .counter_section h4 {
     font-size: 22px;
   }
+
   .browser_img1 img,
   .browser_img3 img {
     right: -40px;
+  }
+
+  .feature_detail_box {
+    flex-direction: column;
+    padding: 75px 12px 50px;
+  }
+
+  .left_sidebar {
+    position: relative;
+    top: 0px;
+  }
+
+  .right_sidebar {
+    width: 100%;
   }
 }
 
@@ -116,15 +135,18 @@
   .browser_img1 img {
     top: 72px;
   }
+
   .browser_img1 img,
   .browser_img2 img {
     max-width: 800px;
   }
 }
+
 /* --------------------------------------- 
    (min-width:1199px) & (max-width:1350px)
 ------------------------------------------ */
 @media (min-width: 1199px) and (max-width: 1350px) {
+
   .browser_img1 img,
   .browser_img2 img {
     max-width: 700px;
@@ -267,7 +289,7 @@
     line-height: 32px;
   }
 
-  .banner_video .video{
+  .banner_video .video {
     height: 660px;
   }
 
@@ -326,6 +348,25 @@
   .autoplay img {
     height: 34px;
   }
+
+  .timeline-item {
+    margin-bottom: 20px;
+  }
+
+  .timeline-with-icons .timeline-item {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .right_sidebar .border-bottom.mt_60 {
+    margin-top: 0%;
+  }
+  .more_section {
+    padding: 50px 20px;
+  }
+  .more_section .content {
+    flex-direction: column;
+  }
 }
 
 /* ---------------------------- 
@@ -350,7 +391,7 @@
     line-height: 34px;
   }
 
-  .banner_video .video{
+  .banner_video .video {
     height: 500px;
   }
 
@@ -403,7 +444,7 @@
     margin: auto;
   }
 
-  .enterprise_box .row-line > div {
+  .enterprise_box .row-line>div {
     border-right: none !important;
   }
 }
@@ -451,7 +492,7 @@
     margin: 20px auto 32px;
   }
 
-  .banner_video .video{
+  .banner_video .video {
     height: 350px;
   }
 
@@ -567,9 +608,11 @@
   .blog_card .main-img {
     height: 520px;
   }
+
   .blog_card {
     max-width: 440px;
   }
+
   .blog_card .check {
     max-width: 50px;
     right: 10px;
@@ -593,6 +636,19 @@
   .autoplay img {
     height: 28px;
   }
+
+  .right_sidebar .sub_title {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+  .right_sidebar .mb_60 {
+    margin-bottom: 40px;
+  }
+  .right_sidebar .h5-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 /* ---------------------------- 
@@ -602,9 +658,11 @@
   .banner_section h1 {
     font-size: 32px;
   }
+
   .companies_section h3 {
     font-size: 22px;
   }
+
   .counter .counter_section h3 {
     font-size: 22px;
   }
@@ -616,18 +674,23 @@
   .blog_card .body {
     padding: 16px;
   }
+
   .blog_card .body .main_text {
     margin-bottom: 20px;
   }
+
   .blog_card .main-img {
     height: 460px;
   }
+
   .blog_card {
     max-width: 380px;
   }
-  .enterprise_box .row-line > div {
+
+  .enterprise_box .row-line>div {
     gap: 12px;
   }
+
   .enterprise_box .row-line p {
     font-size: 16px;
   }
@@ -636,7 +699,8 @@
   .start_box {
     padding: 50px 0px;
   }
-  .banner_video .video{
+
+  .banner_video .video {
     height: 300px;
   }
 }
@@ -648,15 +712,19 @@
   .bg_img {
     height: 775px;
   }
+
   .companies_section {
     padding: 100px 0px 0px;
   }
+
   .common_btn {
     font-size: 14px;
   }
+
   .blog_card .main-img {
     height: 410px;
   }
+
   .blog_card {
     max-width: 320px;
   }

@@ -124,3 +124,71 @@ $(document).ready(function () {
     ],
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Initialize Intersection Observer
+  const observerOptions = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.1, // Adjust threshold based on requirement
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+      //   // Determine which draw-line to adjust based on the intersecting section's ID
+      //   let drawLineId;
+      //   if (entry.target.id === "asset_topology") {
+      //     drawLineId = "draw-line-1";
+      //   } else if (entry.target.id === "demo-2") {
+      //     // Replace "demo-2" with the ID of the section corresponding to draw-line-2
+      //     drawLineId = "draw-line-2";
+      //   }
+
+      //   const drawLine = document.getElementById(drawLineId);
+      //   if (drawLine) {
+      //     // Adjust the height calculation as needed for your layout
+      //     const newHeight = entry.target.offsetHeight + entry.target.offsetTop;
+      //     drawLine.style.height = `${newHeight}px`;
+      //   }
+        // Update active state in the sidebar
+        updateActiveNavLink(entry.target.id);
+      }
+    });
+  }, observerOptions);
+
+  // Observe all sections
+  document.querySelectorAll(".timeline-item").forEach((section) => {
+    observer.observe(section);
+  });
+
+  function updateActiveNavLink(activeId) {
+    // Remove active class from all nav links
+    document.querySelectorAll(".feature_list .nav").forEach((nav) => {
+      nav.classList.remove("active");
+    });
+
+    // Add active class to the current nav link
+    const activeNavLink = document.querySelector(
+      `.feature_list .nav[href="#${activeId}"]`
+    );
+    if (activeNavLink) {
+      activeNavLink.classList.add("active");
+
+      // Close all submenus
+      document.querySelectorAll(".sub_menu").forEach((subMenu) => {
+        subMenu.classList.remove("show");
+      });
+
+      // Open the submenu of the active item, if it exists
+      const parentSubMenu = activeNavLink.closest(".sub_menu");
+      if (parentSubMenu) {
+        parentSubMenu.classList.add("show");
+        const parentMenu = parentSubMenu.previousElementSibling;
+        if (parentMenu) {
+          parentMenu.classList.add("active");
+        }
+      }
+    }
+  }
+});
