@@ -146,7 +146,6 @@
    (min-width:1199px) & (max-width:1350px)
 ------------------------------------------ */
 @media (min-width: 1199px) and (max-width: 1350px) {
-
   .browser_img1 img,
   .browser_img2 img {
     max-width: 700px;
@@ -377,16 +376,28 @@
     height: 945px;
   }
 
+  .platform_img {
+    height: 767px;
+  }
+
+  .link-btns a {
+    padding: 15px 20px;
+  }
+  .platform_img .banner_section {
+    padding: 150px 0px 80px;
+  }
   .banner_section {
     padding: 100px 0px 40px;
   }
 
-  .banner_section h1 {
+  .banner_section,
+  .platform_img .banner_section h1 {
     font-size: 44px;
     line-height: 56px;
   }
 
-  .banner_section h5 {
+  .banner_section,
+  .platform_img .banner_section h5 {
     font-size: 24px;
     line-height: 34px;
   }
@@ -444,8 +455,11 @@
     margin: auto;
   }
 
-  .enterprise_box .row-line>div {
+  .enterprise_box .row-line > div {
     border-right: none !important;
+  }
+  .commom-100 {
+    padding: 50px 0px;
   }
 }
 
@@ -481,12 +495,14 @@
     padding: 100px 0px 40px;
   }
 
-  .banner_section h1 {
+  .banner_section,
+  .platform_img .banner_section h1 {
     font-size: 36px;
     line-height: 48px;
   }
 
-  .banner_section h5 {
+  .banner_section,
+  .platform_img .banner_section h5 {
     font-size: 18px;
     line-height: 28px;
     margin: 20px auto 32px;
@@ -494,6 +510,27 @@
 
   .banner_video .video {
     height: 350px;
+  }
+
+  .bg_img.platform_img {
+    height: auto;
+  }
+  .platform_img .banner_section {
+    margin-bottom: 0;
+  }
+  .link-btns {
+    gap: 10px;
+    padding-bottom: 40px;
+  }
+  .link-btns a {
+    padding: 10px 17px;
+    font-size: 16px;
+  }
+  .link-btns a img {
+    width: 20px;
+  }
+  .platform_img .banner_section {
+    padding: 100px 0px 40px;
   }
 
   .bg_img {
@@ -655,7 +692,8 @@
       (max-width:425px)
 ------------------------------ */
 @media only screen and (max-width: 425px) {
-  .banner_section h1 {
+  .banner_section,
+  .platform_img .banner_section h1 {
     font-size: 32px;
   }
 
@@ -687,7 +725,7 @@
     max-width: 380px;
   }
 
-  .enterprise_box .row-line>div {
+  .enterprise_box .row-line > div {
     gap: 12px;
   }
 
@@ -702,6 +740,49 @@
 
   .banner_video .video {
     height: 300px;
+  }
+
+  .commom-100 {
+    padding: 35px 0;
+  }
+  .common-title h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .common-title p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .gap-32 {
+    --bs-gutter-x: 16px;
+    --bs-gutter-y: 16px;
+  }
+  .common-card {
+    border-radius: 12px;
+  }
+  .common-card .header {
+    padding: 16px 16px 0px;
+  }
+  .common-card h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .common-card p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .p-16 {
+    padding: 16px;
+  }
+  .mt-n16 {
+    margin-top: -16px;
+  }
+  .common-card .main-img.ms-16 {
+    margin-left: 16px;
+  }
+  .common-card .main-img.mb-16 {
+    margin-bottom: 16px;
   }
 }
 

@@ -29,7 +29,6 @@ img {
   background-repeat: no-repeat;
   background-color: #1c1c1e;
   position: relative;
-
 }
 
 .bg_img.bg_img_1 {
@@ -73,6 +72,13 @@ img {
 
 .header_wrap .dropdown-toggle::after {
   display: none;
+}
+
+.header_wrap .dropdown-toggle i {
+  transition: all 0.3s ease;
+}
+.header_wrap .dropdown-toggle.show i {
+  transform: rotate(180deg);
 }
 
 .header_wrap .header_menu1 {
@@ -448,8 +454,10 @@ img {
   padding: 40px 15px 10px;
   border-radius: 16px;
   border: 1px solid #303030;
-  background: var(--Gradient-Card-Dark,
-      linear-gradient(180deg, #2b2b2b 0%, #1a1a1a 100%));
+  background: var(
+    --Gradient-Card-Dark,
+    linear-gradient(180deg, #2b2b2b 0%, #1a1a1a 100%)
+  );
   box-shadow: 0px 1px 4px 0px rgba(37, 39, 59, 0.1);
   max-width: 385px;
 }
@@ -504,7 +512,7 @@ img {
   row-gap: 48px;
 }
 
-.enterprise_box .row-line>div {
+.enterprise_box .row-line > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -959,7 +967,7 @@ img {
   gap: 30px;
 }
 
-.logo_line>div {
+.logo_line > div {
   border-right: 1px solid rgba(255, 255, 255, 0.4);
   padding-right: 20px;
 }
@@ -1085,7 +1093,7 @@ img {
 }
 
 .feature_list .menu {
-  color: #FFF;
+  color: #fff;
   font-family: "GT America Medium";
   font-size: 20px;
   font-weight: 500;
@@ -1105,7 +1113,7 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #97A4B5;
+  color: #97a4b5;
   font-family: "GT America Medium";
   font-size: 16px;
   font-weight: 500;
@@ -1124,15 +1132,19 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sub_menu .nav.active .icon {
-  background: radial-gradient(64.29% 64.29% at 50% 50%, #218753 0%, rgba(33, 135, 83, 0.00) 100%);
+  background: radial-gradient(
+    64.29% 64.29% at 50% 50%,
+    #218753 0%,
+    rgba(33, 135, 83, 0) 100%
+  );
 }
 
 .sub_menu .nav .icon svg path {
-  stroke: #97A4B5;
+  stroke: #97a4b5;
 }
 
 .sub_menu .nav.active .icon svg path {
@@ -1147,7 +1159,7 @@ img {
 
 .right_sidebar .heading {
   padding-bottom: 60px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.10) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 .right_sidebar .title {
@@ -1157,7 +1169,7 @@ img {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
-  background: linear-gradient(91deg, #218753 12.5%, #31E085 88.88%);
+  background: linear-gradient(91deg, #218753 12.5%, #31e085 88.88%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1165,7 +1177,7 @@ img {
 }
 
 .right_sidebar .sub_title {
-  color: #FFF;
+  color: #fff;
   font-family: "Alliance No.2";
   font-size: 42px;
   font-weight: 600;
@@ -1175,7 +1187,7 @@ img {
 }
 
 .right_sidebar .h5-text {
-  color: #97A4B5;
+  color: #97a4b5;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -1191,7 +1203,7 @@ img {
 }
 
 .right_sidebar .text-p {
-  color: #97A4B5;
+  color: #97a4b5;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -1206,11 +1218,11 @@ img {
 }
 
 .right_sidebar .border-bottom {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.10) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 .timeline-with-icons {
-  border-left: 1px solid rgba(255, 255, 255, 0.10);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
   list-style: none;
 }
@@ -1245,8 +1257,12 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  background: radial-gradient(64.29% 64.29% at 50% 50%, #218753 0%, rgba(33, 135, 83, 0.00) 100%);
-  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: radial-gradient(
+    64.29% 64.29% at 50% 50%,
+    #218753 0%,
+    rgba(33, 135, 83, 0) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .timeline-with-icons .timeline-icon svg path {
@@ -1276,7 +1292,7 @@ img {
 }
 
 .more_section .content .text h1 {
-  color: #FFF;
+  color: #fff;
   font-family: "Alliance No.2";
   font-size: 28px;
   font-weight: 600;
@@ -1286,8 +1302,7 @@ img {
 }
 
 .more_section .content .text p {
-  color: #FFF;
-  ;
+  color: #fff;
   font-family: "Alliance No.2";
   font-size: 16px;
   font-weight: 400;
@@ -1310,13 +1325,184 @@ img {
   font-size: 16px;
   line-height: 24px;
   border-radius: 8px;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15), 0px 2px 0px 0px rgba(255, 255, 255, 0.08) inset;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 0px 0px rgba(255, 255, 255, 0.08) inset;
 }
 
 .more_section .content .button_group .btn-dark {
-  border: 1px solid #2D2F30;
-  background: #1C1C1E;
+  border: 1px solid #2d2f30;
+  background: #1c1c1e;
 }
-  .more_section .content .button_group .btn-dark:hover {
-    background-color: #000;
-  }
+.more_section .content .button_group .btn-dark:hover {
+  background-color: #000;
+}
+
+/* Platform page */
+.platform_img {
+  background-image: url(../../assets/image/hero.png);
+  height: 1000px;
+}
+.platform_img .banner_section {
+  padding: 212px 0 161px;
+}
+.platform_img .banner_section h1 {
+  max-width: 840px;
+}
+.platform_img .banner_section h5 {
+  max-width: 689px;
+  margin-bottom: 40px;
+}
+
+.bg-black-img .custom_container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.bg-black-img {
+  background-image: url(../../assets/image/bg-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-color-line {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    rgba(47, 193, 119, 0) 28.87%,
+    #218753 45.39%,
+    #218753 53.54%,
+    rgba(33, 135, 83, 0) 70.06%
+  );
+}
+
+.commom-100 {
+  padding: 100px 0;
+}
+
+.gap-32 {
+  --bs-gutter-x: 32px;
+  --bs-gutter-y: 32px;
+}
+
+.link-btns {
+  max-width: 893px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.link-btns a {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 48px;
+  background: radial-gradient(
+      70.71% 70.71% at 50% 50%,
+      rgba(255, 255, 255, 0.06) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 255, 255, 0.01);
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.06) inset,
+    1px 1px 0px 0px rgba(255, 255, 255, 0.08) inset,
+    0px 8px 40px -20px rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.common-title {
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+.common-title h3 {
+  color: #fff;
+  font-family: "Alliance No.2";
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.21px;
+  margin-bottom: 10px;
+}
+.common-title p {
+  color: #97a4b5;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+.common-card {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 24px;
+  border: 1px solid #2a2a2a;
+  background: #171717;
+  height: 100%;
+  overflow: hidden;
+  max-height: 400px;
+}
+.bg-act {
+  background: radial-gradient(
+      83.18% 75.59% at 50% 50%,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #171717;
+}
+.common-card .header {
+  padding: 32px 32px 0px;
+}
+.common-card h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+.common-card p {
+  max-width: 400px;
+  color: #d9d9d9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.09px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-bottom: 0;
+}
+.mw-512 {
+  max-width: 512px;
+}
+.common-card .main-img {
+  width: 100%;
+  height: 100%;
+}
+.p-32 {
+  padding: 32px;
+}
+.mt-n32 {
+  margin-top: -32px;
+}
+.common-card .main-img.ms-32 {
+  margin-left: 32px;
+}
+.common-card .main-img.mb-32 {
+  margin-bottom: 32px;
+}
