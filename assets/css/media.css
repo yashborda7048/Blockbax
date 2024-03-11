@@ -505,7 +505,7 @@
   .platform_img .banner_section h5 {
     font-size: 18px;
     line-height: 28px;
-    margin: 20px auto 32px;
+    margin: 0px auto 32px;
   }
 
   .banner_video .video {
@@ -686,6 +686,36 @@
     font-size: 16px;
     line-height: 22px;
   }
+  .gap-32 {
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 24px;
+  }
+  .common-card {
+    border-radius: 12px;
+  }
+  .common-card .header {
+    padding: 24px 24px 0px;
+  }
+  .common-card h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .common-card p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .p-32 {
+    padding: 24px;
+  }
+  .mt-n32 {
+    margin-top: -24px;
+  }
+  .common-card .main-img.ms-32 {
+    margin-left: 24px;
+  }
+  .common-card .main-img.mb-32 {
+    margin-bottom: 24px;
+  }
 }
 
 /* ---------------------------- 
@@ -745,15 +775,6 @@
   .commom-100 {
     padding: 35px 0;
   }
-  .common-title h3 {
-    font-size: 32px;
-    line-height: 40px;
-  }
-  .common-title p {
-    font-size: 16px;
-    line-height: 20px;
-  }
-
   .gap-32 {
     --bs-gutter-x: 16px;
     --bs-gutter-y: 16px;
@@ -764,24 +785,16 @@
   .common-card .header {
     padding: 16px 16px 0px;
   }
-  .common-card h4 {
-    font-size: 20px;
-    line-height: 28px;
-  }
-  .common-card p {
-    font-size: 14px;
-    line-height: 18px;
-  }
-  .p-16 {
+  .p-32 {
     padding: 16px;
   }
-  .mt-n16 {
+  .mt-n32 {
     margin-top: -16px;
   }
-  .common-card .main-img.ms-16 {
+  .common-card .main-img.ms-32 {
     margin-left: 16px;
   }
-  .common-card .main-img.mb-16 {
+  .common-card .main-img.mb-32 {
     margin-bottom: 16px;
   }
 }
