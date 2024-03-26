@@ -6,6 +6,7 @@
 
 body {
   font-family: "GT America Regular";
+  font-style: normal;
 }
 
 .custom_container {
@@ -33,6 +34,16 @@ img {
 
 .bg_img.bg_img_1 {
   background-image: url(../../assets/image/hero-1.svg);
+}
+
+.bg_gradient {
+  border-radius: 304.444px;
+  background: rgba(65, 232, 141, 0.6);
+  filter: blur(250px);
+  width: 305px;
+  height: 227px;
+  position: absolute;
+  top: 280px;
 }
 
 ::-webkit-scrollbar {
@@ -1078,7 +1089,7 @@ img {
 }
 
 .feature_detail_box {
-  padding: 112px 0px 95px;
+  padding: 210px 0px 95px;
   position: relative;
   gap: 40px;
   display: flex;
@@ -1143,13 +1154,27 @@ img {
   );
 }
 
-.sub_menu .nav .icon svg path {
+.sub_menu .nav .icon .main {
+  display: block;
+}
+.sub_menu .nav .icon .active {
+  display: none;
+}
+
+.sub_menu .nav.active .icon .main {
+  display: none;
+}
+.sub_menu .nav.active .icon .active {
+  display: block;
+}
+
+/* .sub_menu .nav .icon svg path {
   stroke: #97a4b5;
 }
 
 .sub_menu .nav.active .icon svg path {
   stroke: #fff;
-}
+} */
 
 /* right sidebar */
 .right_sidebar {
@@ -1174,6 +1199,7 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
+  width: fit-content;
 }
 
 .right_sidebar .sub_title {
@@ -1281,6 +1307,7 @@ img {
 
 .more_section .content {
   max-width: 971px;
+  width: 100%;
   gap: 60px;
   display: flex;
   align-items: center;
@@ -1288,7 +1315,7 @@ img {
 }
 
 .more_section .content .text {
-  max-width: 588px;
+  width: 100%;
 }
 
 .more_section .content .text h1 {
@@ -1305,13 +1332,14 @@ img {
   color: #fff;
   font-family: "Alliance No.2";
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 24px;
   letter-spacing: 0.08px;
   margin-bottom: 0px;
 }
 
 .more_section .content .button_group {
+  max-width: 323px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -1351,6 +1379,7 @@ img {
 .platform_img .banner_section h5 {
   max-width: 689px;
   margin-bottom: 40px;
+  font-weight: 300;
 }
 
 .bg-black-img .custom_container {
@@ -1418,6 +1447,14 @@ img {
   line-height: 24px;
   text-decoration: none;
 }
+.link-btns a:hover {
+  background: radial-gradient(
+      70.71% 70.71% at 50% 50%,
+      rgb(123 123 123 / 6%) 0%,
+      rgb(61 61 61 / 0%) 100%
+    ),
+    rgb(69 68 68 / 0%);
+}
 
 .common-title {
   text-align: center;
@@ -1456,6 +1493,24 @@ img {
   overflow: hidden;
   max-height: 400px;
 }
+.common-card:hover {
+  background: radial-gradient(
+      70.71% 70.71% at 50% 50%,
+      rgba(33, 135, 83, 0.05) 0%,
+      rgba(33, 135, 83, 0) 100%
+    ),
+    radial-gradient(
+      70.71% 70.71% at 50% 50%,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    radial-gradient(
+      70.71% 70.71% at 50% 50%,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #000904;
+}
 .bg-act {
   background: radial-gradient(
       83.18% 75.59% at 50% 50%,
@@ -1463,6 +1518,27 @@ img {
       rgba(255, 255, 255, 0) 100%
     ),
     #171717;
+}
+.common-card .icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  transform: rotate(45deg);
+  transition: all 0.3s ease;
+  display: none;
+}
+.common-card .icon i {
+  font-size: 16px;
+}
+.common-card:hover .icon {
+  display: flex;
 }
 .common-card .header {
   padding: 32px 32px 0px;
@@ -1502,6 +1578,7 @@ img {
 }
 .common-card .main-img.ms-32 {
   margin-left: 32px;
+  width: calc(100% - 32px);
 }
 .common-card .main-img.mb-32 {
   margin-bottom: 32px;

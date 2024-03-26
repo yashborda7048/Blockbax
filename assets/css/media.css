@@ -461,6 +461,20 @@
   .commom-100 {
     padding: 50px 0px;
   }
+  .common-title p,
+  .common-card {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+  }
+  .common-card {
+    max-height: auto;
+    min-height: 200px;
+  }
+  .common-card .icon {
+    top: 20px;
+    right: 20px;
+  }
 }
 
 /* ---------------------------- 
