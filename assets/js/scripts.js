@@ -136,21 +136,21 @@ document.addEventListener("DOMContentLoaded", function () {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-      //   // Determine which draw-line to adjust based on the intersecting section's ID
-      //   let drawLineId;
-      //   if (entry.target.id === "asset_topology") {
-      //     drawLineId = "draw-line-1";
-      //   } else if (entry.target.id === "demo-2") {
-      //     // Replace "demo-2" with the ID of the section corresponding to draw-line-2
-      //     drawLineId = "draw-line-2";
-      //   }
+        //   // Determine which draw-line to adjust based on the intersecting section's ID
+        //   let drawLineId;
+        //   if (entry.target.id === "asset_topology") {
+        //     drawLineId = "draw-line-1";
+        //   } else if (entry.target.id === "demo-2") {
+        //     // Replace "demo-2" with the ID of the section corresponding to draw-line-2
+        //     drawLineId = "draw-line-2";
+        //   }
 
-      //   const drawLine = document.getElementById(drawLineId);
-      //   if (drawLine) {
-      //     // Adjust the height calculation as needed for your layout
-      //     const newHeight = entry.target.offsetHeight + entry.target.offsetTop;
-      //     drawLine.style.height = `${newHeight}px`;
-      //   }
+        //   const drawLine = document.getElementById(drawLineId);
+        //   if (drawLine) {
+        //     // Adjust the height calculation as needed for your layout
+        //     const newHeight = entry.target.offsetHeight + entry.target.offsetTop;
+        //     drawLine.style.height = `${newHeight}px`;
+        //   }
         // Update active state in the sidebar
         updateActiveNavLink(entry.target.id);
       }
@@ -192,3 +192,75 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+// scrolling Timeline 1
+var items = $(".timeline li"),
+  timelineHeight = $(".timeline ul").height(),
+  greyLine = $(".timeline-with-icons"),
+  lineToDraw = $(".draw-line");
+
+if (lineToDraw.length) {
+  $(window).on("scroll", function () {
+    var redLineHeight = lineToDraw.height(),
+      greyLineHeight = greyLine.height(),
+      windowDistance = $(window).scrollTop(),
+      windowHeight = $(window).height() / 2,
+      timelineDistance = $(".timeline").offset().top;
+
+    if (windowDistance >= timelineDistance - windowHeight) {
+      line = windowDistance - timelineDistance + windowHeight;
+
+      if (line <= greyLineHeight) {
+        lineToDraw.css({
+          height: line + 20 + "px",
+        });
+      }
+    }
+
+    var bottom = lineToDraw.offset().top + lineToDraw.outerHeight(true);
+    items.each(function (index) {
+      var circlePosition = $(this).offset();
+
+      if (bottom > circlePosition.top) {
+        $(this).addClass("in-view");
+      } else {
+        $(this).removeClass("in-view");
+      }
+    });
+  });
+}
+
+// scrolling timeline 2
+var itemss = $(".timelines li"),
+  greyLines = $(".timeline-with-icons1"),
+  linesToDraw = $(".draw-lines");
+
+if (linesToDraw.length) {
+  $(window).on("scroll", function () {
+    var greyLineHeights = greyLines.height(),
+      windowDistances = $(window).scrollTop(),
+      windowHeights = $(window).height() / 2,
+      timelineDistances = $(".timelines").offset().top;
+
+    if (windowDistances >= timelineDistances - windowHeights) {
+      line = windowDistances - timelineDistances + windowHeights;
+
+      if (line <= greyLineHeights) {
+        linesToDraw.css({
+          height: line + 20 + "px",
+        });
+      }
+    }
+
+    var bottom = linesToDraw.offset().top + linesToDraw.outerHeight(true);
+    itemss.each(function (index) {
+      var circlePosition = $(this).offset();
+
+      if (bottom > circlePosition.top) {
+        $(this).addClass("in-view");
+      } else {
+        $(this).removeClass("in-view");
+      }
+    });
+  });
+}
